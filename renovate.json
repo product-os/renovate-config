@@ -1,0 +1,66 @@
+{
+  "extends": [
+    "config:base",
+    "docker:enableMajor"
+  ],
+  "enabledManagers": [
+    "npm",
+    "dockerfile"
+  ],
+  "force": {
+    "constraints": {
+      "node": "< 15.0.0",
+      "npm": "< 7.0.0"
+    }
+  },
+  "pruneStaleBranches": false,
+  "rangeStrategy": "bump",
+  "commitMessagePrefix": "patch:",
+  "commitBody": "Update {{depName}} from {{currentVersion}} to {{newVersion}}\n\nChange-type: patch",
+  "prHourlyLimit": 0,
+  "labels": [
+    "dependencies"
+  ],
+  "ignoreDeps": [
+    "node"
+  ],
+  "packageRules": [
+    {
+      "groupName": "internal-patch",
+      "matchPackagePrefixes": ["@balena"],
+      "commitBody": "Change-type: patch",
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true
+    },
+    {
+      "groupName": "external-non-major",
+      "excludePackageNames": ["typescript"],
+      "excludePackagePrefixes": ["@balena"],
+      "commitBody": "Change-type: patch",
+      "extends": ["schedule:weekends"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    },
+    {
+      "groupName": "external-major",
+      "excludePackagePrefixes": ["@balena"],
+      "commitBody": "Change-type: patch",
+      "extends": ["schedule:weekends"],
+      "matchUpdateTypes": [
+        "major"
+      ]
+    },
+    {
+      "matchPackagePrefixes": ["@balena"],
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "automerge": true
+    }
+  ]
+}
