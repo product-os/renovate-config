@@ -13,5 +13,8 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "renovate": "^29.23.3"
+  },
+  "versionist": {
+    "publishedAt": "2021-11-25T04:16:06.372Z"
   }
 }
