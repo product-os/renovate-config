@@ -36,7 +36,6 @@
     },
     {
       "groupName": "external-non-major",
-      "excludePackageNames": ["typescript"],
       "excludePackagePrefixes": ["@balena"],
       "commitBody": "Change-type: patch",
       "extends": ["schedule:weekends"],
