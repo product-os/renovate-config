@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.7 - 2022-01-01
+
+* patch: Update dependency renovate to ^31.14.1 [Renovate Bot]
+
 ## 1.0.6 - 2021-12-18
 
 * patch: Update dependency renovate to v31 [Renovate Bot]
