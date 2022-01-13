@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.10 - 2022-01-13
+
+* Update node and npm to latest lts [Josh Bowling]
+
 ## 1.0.9 - 2022-01-10
 
 * patch: Update dependency renovate to ^31.22.1 [Renovate Bot]
