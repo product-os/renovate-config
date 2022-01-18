@@ -39,6 +39,7 @@
       "excludePackagePrefixes": ["@balena"],
       "commitBody": "Change-type: patch",
       "extends": ["schedule:weekends"],
+      "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
         "minor",
         "patch"
@@ -56,6 +57,7 @@
     },
     {
       "matchPackagePrefixes": ["@balena"],
+      "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
         "minor"
       ],
