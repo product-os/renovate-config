@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.14 - 2022-01-19
+
+* Update zero minor bump rules [Josh Bowling]
+
 ## 1.0.13 - 2022-01-18
 
 * Treat 0.x minor bumps as majors [Josh Bowling]
