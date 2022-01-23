@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.15 - 2022-01-22
+
+* patch: Update dependency renovate to ^31.44.0 [Renovate Bot]
+
 ## 1.0.14 - 2022-01-19
 
 * Update zero minor bump rules [Josh Bowling]
