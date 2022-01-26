@@ -26,12 +26,11 @@
   ],
   "packageRules": [
     {
-      "groupName": "internal-non-major",
+      "groupName": "internal-patch",
       "matchPackagePrefixes": ["@balena"],
       "commitBody": "Change-type: patch",
       "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
-        "minor",
         "patch"
       ],
       "automerge": true
@@ -55,15 +54,6 @@
       "extends": ["schedule:weekends"],
       "matchUpdateTypes": [
         "major"
-      ]
-    },
-    {
-      "groupName": "internal-zero-minor",
-      "matchPackagePrefixes": ["@balena"],
-      "commitBody": "Change-type: patch",
-      "matchCurrentVersion": "<1.0.0",
-      "matchUpdateTypes": [
-        "minor"
       ]
     },
     {
