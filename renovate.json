@@ -15,8 +15,11 @@
   },
   "pruneStaleBranches": false,
   "rangeStrategy": "bump",
-  "commitMessagePrefix": "patch:",
-  "commitBody": "Update {{depName}} from {{currentVersion}} to {{newVersion}}\n\nChange-type: patch",
+  "commitMessagePrefix": "Update",
+  "commitMessageAction": "",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
+  "commitBody": "Change-type: patch",
   "prHourlyLimit": 0,
   "labels": [
     "dependencies"
@@ -28,7 +31,8 @@
     {
       "groupName": "internal-patch",
       "matchPackagePrefixes": ["@balena"],
-      "commitBody": "Change-type: patch",
+      "commitMessageTopic": "dependencies",
+      "commitMessageExtra": "(internal patch bumps)",
       "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
         "patch"
@@ -38,7 +42,8 @@
     {
       "groupName": "external-non-major",
       "excludePackagePrefixes": ["@balena"],
-      "commitBody": "Change-type: patch",
+      "commitMessageTopic": "dependencies",
+      "commitMessageExtra": "(external non-major bumps)",
       "extends": ["schedule:weekends"],
       "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
@@ -50,7 +55,8 @@
     {
       "groupName": "external-major",
       "excludePackagePrefixes": ["@balena"],
-      "commitBody": "Change-type: patch",
+      "commitMessageTopic": "dependencies",
+      "commitMessageExtra": "(external major bumps)",
       "extends": ["schedule:weekends"],
       "matchUpdateTypes": [
         "major"
@@ -59,7 +65,8 @@
     {
       "groupName": "external-zero-minor",
       "excludePackagePrefixes": ["@balena"],
-      "commitBody": "Change-type: patch",
+      "commitMessageTopic": "dependencies",
+      "commitMessageExtra": "(external v0 minor bumps)",
       "extends": ["schedule:weekends"],
       "matchCurrentVersion": "<1.0.0",
       "matchUpdateTypes": [
