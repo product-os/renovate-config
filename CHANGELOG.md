@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.17 - 2022-01-26
+
+* patch: Update dependency renovate to ^31.56.0 [Renovate Bot]
+
 ## 1.0.16 - 2022-01-26
 
 * No longer group internal minor bumps [Josh Bowling]
