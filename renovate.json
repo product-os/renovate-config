@@ -5,7 +5,8 @@
   ],
   "enabledManagers": [
     "npm",
-    "dockerfile"
+    "dockerfile",
+    "docker-compose"
   ],
   "force": {
     "constraints": {
