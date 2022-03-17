@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.23 - 2022-03-17
+
+* Update rules for autumndb [Josh Bowling]
+
 ## 1.0.22 - 2022-03-06
 
 * Update typescript separately [Josh Bowling]
