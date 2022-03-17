@@ -32,6 +32,7 @@
     {
       "groupName": "internal-patch",
       "matchPackagePrefixes": ["@balena"],
+      "matchPackageNames": ["autumndb"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(internal patch bumps)",
       "matchCurrentVersion": ">=1.0.0",
@@ -43,7 +44,7 @@
     {
       "groupName": "external-non-major",
       "excludePackagePrefixes": ["@balena"],
-      "excludePackageNames": ["typescript"],
+      "excludePackageNames": ["typescript", "autumndb"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(external non-major bumps)",
       "extends": ["schedule:weekends"],
@@ -57,7 +58,7 @@
     {
       "groupName": "external-major",
       "excludePackagePrefixes": ["@balena"],
-      "excludePackageNames": ["typescript"],
+      "excludePackageNames": ["typescript", "autumndb"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(external major bumps)",
       "extends": ["schedule:weekends"],
