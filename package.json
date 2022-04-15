@@ -1,6 +1,6 @@
 {
   "name": "@balena/renovate-config",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/renovate-config.git"
@@ -15,6 +15,6 @@
     "renovate": "^32.0.1"
   },
   "versionist": {
-    "publishedAt": "2022-03-17T09:47:32.653Z"
+    "publishedAt": "2022-04-15T03:39:29.573Z"
   }
 }

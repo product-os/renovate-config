@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.24 - 2022-04-15
+
+* Enable git submodules [Josh Bowling]
+
 ## 1.0.23 - 2022-03-17
 
 * Update rules for autumndb [Josh Bowling]
