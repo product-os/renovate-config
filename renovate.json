@@ -24,7 +24,7 @@
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
   "commitBody": "Change-type: patch",
-  "prHourlyLimit": 0,
+  "prConcurrentLimit": 2,
   "labels": [
     "dependencies"
   ],
