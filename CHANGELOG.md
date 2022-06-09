@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.26 - 2022-06-09
+
+* Update dependencies (external non-major bumps) [Renovate Bot]
+
 ## 1.0.25 - 2022-06-09
 
 * Set concurrent PR limit to 2 [Josh Bowling]
