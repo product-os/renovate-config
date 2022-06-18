@@ -47,7 +47,7 @@
     {
       "groupName": "external-non-major",
       "excludePackagePrefixes": ["@balena"],
-      "excludePackageNames": ["typescript", "autumndb"],
+      "excludePackageNames": ["autumndb"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(external non-major bumps)",
       "extends": ["schedule:weekends"],
@@ -61,7 +61,7 @@
     {
       "groupName": "external-major",
       "excludePackagePrefixes": ["@balena"],
-      "excludePackageNames": ["typescript", "autumndb"],
+      "excludePackageNames": ["autumndb"],
       "commitMessageTopic": "dependencies",
       "commitMessageExtra": "(external major bumps)",
       "extends": ["schedule:weekends"],
