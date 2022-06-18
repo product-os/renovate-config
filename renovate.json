@@ -8,9 +8,6 @@
     "dockerfile",
     "docker-compose"
   ],
-  "git-submodules": {
-    "enabled": true
-  },
   "force": {
     "constraints": {
       "node": "< 17.0.0",
