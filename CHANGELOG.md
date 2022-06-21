@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.29 - 2022-06-21
+
+* Explicitly disable submodule management [Josh Bowling]
+
 ## 1.0.28 - 2022-06-18
 
 * Disable submodule bumps [Josh Bowling]
