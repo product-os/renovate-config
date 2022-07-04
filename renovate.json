@@ -79,6 +79,10 @@
       "matchUpdateTypes": [
         "minor"
       ]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
     }
   ]
 }
