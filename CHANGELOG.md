@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.30 - 2022-07-04
+
+* Auto-approve dev dep bumps [Josh Bowling]
+
 ## 1.0.29 - 2022-06-21
 
 * Explicitly disable submodule management [Josh Bowling]
