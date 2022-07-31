@@ -26,8 +26,8 @@
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
   "commitBody": "Change-type: patch",
-  "branchConcurrentLimit": 2,
-  "prConcurrentLimit": 2,
+  "branchConcurrentLimit": 1,
+  "prConcurrentLimit": 1,
   "labels": [
     "renovate",
     "dependencies"
