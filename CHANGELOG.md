@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.32 - 2022-07-31
+
+* Update concurrent limits [Josh Bowling]
+
 ## 1.0.31 - 2022-07-31
 
 * Extend balena-io config [Josh Bowling]
