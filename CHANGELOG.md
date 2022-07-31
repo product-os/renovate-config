@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.35 - 2022-07-31
+
+* Update dependencies from 32.78.1 to 32.135.1 [renovate[bot]]
+
 ## 1.0.34 - 2022-07-31
 
 * Revert balena-io config extend [Josh Bowling]
