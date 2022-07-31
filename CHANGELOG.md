@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.36 - 2022-07-31
+
+* Drop commit message override for non-grouped bumps [Josh Bowling]
+
 ## 1.0.35 - 2022-07-31
 
 * Update dependencies from 32.78.1 to 32.135.1 [renovate[bot]]
