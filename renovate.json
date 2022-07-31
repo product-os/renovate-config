@@ -1,12 +1,16 @@
 {
   "extends": [
-    "github>balena-io/renovate-config//.github/renovate"
+    "config:base",
+    "docker:enableMajor"
   ],
   "enabledManagers": [
     "npm",
     "dockerfile",
     "docker-compose"
   ],
+  "git-submodules": {
+    "enabled": false
+  },
   "force": {
     "constraints": {
       "node": "< 17.0.0",
@@ -14,6 +18,9 @@
     }
   },
   "pruneStaleBranches": false,
+  "rangeStrategy": "bump",
+  "automergeComment": "@balena-ci I self-certify!",
+  "automergeType": "pr-comment",
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
   "commitMessageTopic": "{{depName}}",
@@ -21,6 +28,10 @@
   "commitBody": "Change-type: patch",
   "branchConcurrentLimit": 3,
   "prConcurrentLimit": 3,
+  "labels": [
+    "renovate",
+    "dependencies"
+  ],
   "ignoreDeps": [
     "node"
   ],
@@ -68,6 +79,10 @@
       "matchUpdateTypes": [
         "minor"
       ]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
     }
   ]
 }
