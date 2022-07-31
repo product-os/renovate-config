@@ -1,16 +1,12 @@
 {
   "extends": [
-    "config:base",
-    "docker:enableMajor"
+    "github>balena-io/renovate-config//.github/renovate"
   ],
   "enabledManagers": [
     "npm",
     "dockerfile",
     "docker-compose"
   ],
-  "git-submodules": {
-    "enabled": false
-  },
   "force": {
     "constraints": {
       "node": "< 17.0.0",
@@ -18,26 +14,15 @@
     }
   },
   "pruneStaleBranches": false,
-  "rangeStrategy": "bump",
-  "commitMessagePrefix": "Update",
-  "commitMessageAction": "",
-  "commitMessageTopic": "{{depName}}",
-  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
-  "commitBody": "Change-type: patch",
   "prConcurrentLimit": 2,
-  "labels": [
-    "dependencies"
-  ],
   "ignoreDeps": [
     "node"
   ],
   "packageRules": [
     {
-      "groupName": "internal-patch",
       "matchPackagePrefixes": ["@balena"],
       "matchPackageNames": ["autumndb"],
       "commitMessageTopic": "dependencies",
-      "commitMessageExtra": "(internal patch bumps)",
       "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
         "patch"
@@ -45,11 +30,9 @@
       "automerge": true
     },
     {
-      "groupName": "external-non-major",
       "excludePackagePrefixes": ["@balena"],
       "excludePackageNames": ["autumndb"],
       "commitMessageTopic": "dependencies",
-      "commitMessageExtra": "(external non-major bumps)",
       "extends": ["schedule:weekends"],
       "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
@@ -63,7 +46,6 @@
       "excludePackagePrefixes": ["@balena"],
       "excludePackageNames": ["autumndb"],
       "commitMessageTopic": "dependencies",
-      "commitMessageExtra": "(external major bumps)",
       "extends": ["schedule:weekends"],
       "matchUpdateTypes": [
         "major"
@@ -79,10 +61,6 @@
       "matchUpdateTypes": [
         "minor"
       ]
-    },
-    {
-      "matchDepTypes": ["devDependencies"],
-      "automerge": true
     }
   ]
 }
