@@ -14,7 +14,8 @@
     }
   },
   "pruneStaleBranches": false,
-  "prConcurrentLimit": 2,
+  "branchConcurrentLimit": 3,
+  "prConcurrentLimit": 3,
   "ignoreDeps": [
     "node"
   ],
