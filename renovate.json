@@ -39,7 +39,6 @@
     {
       "matchPackagePrefixes": ["@balena"],
       "matchPackageNames": ["autumndb"],
-      "commitMessageTopic": "dependencies",
       "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
         "patch"
@@ -49,7 +48,6 @@
     {
       "excludePackagePrefixes": ["@balena"],
       "excludePackageNames": ["autumndb"],
-      "commitMessageTopic": "dependencies",
       "extends": ["schedule:weekends"],
       "matchCurrentVersion": ">=1.0.0",
       "matchUpdateTypes": [
