@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.39 - 2022-08-06
+
+* Update renovate from 32.135.1 to 32.150.0 [renovate[bot]]
+
 ## 1.0.38 - 2022-07-31
 
 * Reduce concurrency from 2 to 1 [Josh Bowling]
