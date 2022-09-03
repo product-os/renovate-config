@@ -12,7 +12,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "renovate": "^32.189.0"
+    "renovate": "^32.189.1"
   },
   "versionist": {
     "publishedAt": "2022-09-03T02:33:24.297Z"
