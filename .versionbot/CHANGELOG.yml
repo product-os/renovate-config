@@ -1,0 +1,1016 @@
+- commits:
+    - subject: "CI: Move to flowzone"
+      hash: 11b50fd0282a2bb1f535daa5b98fcf870c21408e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.70
+  title: ""
+  date: 2022-10-02T07:19:46.252Z
+- version: 1.0.69
+  date: 2022-09-25T14:56:32Z
+  commits:
+    - hash: 09344a1629f5d58db10e11697a4ff185c87a7e86
+      author: renovate[bot]
+      footers:
+        change-type: patch
+      subject: Update renovate from 32.202.4 to 32.203.0
+      body: null
+- version: 1.0.68
+- date: 2022-09-24T19:05:30Z
+- commits:
+    - hash: 8768a596af3cd7fd27366d8dd318a7e378e4be89
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.202.3 to 32.202.4
+- commits:
+    - ? body
+- version: 1.0.67
+- date: 2022-09-24T01:32:51Z
+- commits:
+    - hash: 2e85c5730ffbfd012364f7cd4b8b8defc2119995
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.198.1 to 32.202.3
+- commits:
+    - ? body
+- version: 1.0.66
+- date: 2022-09-18T11:50:32Z
+- commits:
+    - hash: ac2612218ea3ba37f890d8f6fb814c06088ce138
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.197.2 to 32.198.1
+- commits:
+    - ? body
+- version: 1.0.65
+- date: 2022-09-18T06:45:25Z
+- commits:
+    - hash: 936eb4dede31ba4a6e23c7b88f0cbc70980f6609
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.197.1 to 32.197.2
+- commits:
+    - ? body
+- version: 1.0.64
+- date: 2022-09-17T21:44:18Z
+- commits:
+    - hash: 516b733b86f89e744c415d91f916459de0bd472b
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.197.0 to 32.197.1
+- commits:
+    - ? body
+- version: 1.0.63
+- date: 2022-09-17T11:06:52Z
+- commits:
+    - hash: da831ca3d546eab386c48acce2a7b5839d0b9809
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.196.0 to 32.197.0
+- commits:
+    - ? body
+- version: 1.0.62
+- date: 2022-09-17T02:51:58Z
+- commits:
+    - hash: a9b8a10502e86df6d62fc97408ad9cb04b1a0c64
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.194.5 to 32.196.0
+- commits:
+    - ? body
+- version: 1.0.61
+- date: 2022-09-11T20:48:35Z
+- commits:
+    - hash: 7db251b0ad1f74283c3ea3f45299f115d375123e
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.194.4 to 32.194.5
+- commits:
+    - ? body
+- version: 1.0.60
+- date: 2022-09-10T11:53:37Z
+- commits:
+    - hash: cdb1538ef6ad44435e60ac8fc0bc2a3ab491f1f3
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.194.3 to 32.194.4
+- commits:
+    - ? body
+- version: 1.0.59
+- date: 2022-09-10T00:40:57Z
+- commits:
+    - hash: 8697ea06b02e283b682b6541fc0905611a12af93
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.190.3 to 32.194.3
+- commits:
+    - ? body
+- version: 1.0.58
+- date: 2022-09-04T17:31:29Z
+- commits:
+    - hash: 46cb763fa7e682569ff6b3e63ea49025b7f48776
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.190.2 to 32.190.3
+- commits:
+    - ? body
+- version: 1.0.57
+- date: 2022-09-04T13:35:59Z
+- commits:
+    - hash: 64b1bd46c877d90952096581fc1ce92ddb214f2a
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.190.1 to 32.190.2
+- commits:
+    - ? body
+- version: 1.0.56
+- date: 2022-09-04T07:09:15Z
+- commits:
+    - hash: e5a48995c197307b4749e034ee8de6668a3270b1
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.190.0 to 32.190.1
+- commits:
+    - ? body
+- version: 1.0.55
+- date: 2022-09-03T17:16:18Z
+- commits:
+    - hash: e59c91e92ba075124845b0621e9d35584e32b45c
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.189.1 to 32.190.0
+- commits:
+    - ? body
+- version: 1.0.54
+- date: 2022-09-03T13:16:04Z
+- commits:
+    - hash: cc867e2b426dc40fd7093375e2a5b2c18639ad81
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.189.0 to 32.189.1
+- commits:
+    - ? body
+- version: 1.0.53
+- date: 2022-09-03T02:36:42Z
+- commits:
+    - hash: 2a82f7418405992b623e0690de8506683d5a4d24
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.181.0 to 32.189.0
+- commits:
+    - ? body
+- version: 1.0.52
+- date: 2022-08-28T20:26:44Z
+- commits:
+    - hash: b4768873f70b0d9c0fa08a7207925fe30ad0815b
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.180.1 to 32.181.0
+- commits:
+    - ? body
+- version: 1.0.51
+- date: 2022-08-28T14:08:35Z
+- commits:
+    - hash: 3027e8209142ba4728535fb060e33be03b6c68a2
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.180.0 to 32.180.1
+- commits:
+    - ? body
+- version: 1.0.50
+- date: 2022-08-28T06:48:29Z
+- commits:
+    - hash: 7b4e3da0019c071094950685d148d72a2ad9b1a1
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.169.1 to 32.180.0
+- commits:
+    - ? body
+- version: 1.0.49
+- date: 2022-08-21T13:41:34Z
+- commits:
+    - hash: bf8b668e6e87af38cacc9ec0ab8e44d92f6c2b0e
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.169.0 to 32.169.1
+- commits:
+    - ? body
+- version: 1.0.48
+- date: 2022-08-21T07:03:04Z
+- commits:
+    - hash: 83dcd66a91a4585bf1900734f7086608bd136b0a
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.168.0 to 32.169.0
+- commits:
+    - ? body
+- version: 1.0.47
+- date: 2022-08-20T06:01:09Z
+- commits:
+    - hash: 124f622ba931bfe6fa708b772970bfe7e7064083
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.167.0 to 32.168.0
+- commits:
+    - ? body
+- version: 1.0.46
+- date: 2022-08-20T00:59:42Z
+- commits:
+    - hash: d80ff165132bad82cc738b334d8115c50f4b9a13
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.159.1 to 32.167.0
+- commits:
+    - ? body
+- version: 1.0.45
+- date: 2022-08-14T17:52:02Z
+- commits:
+    - hash: 1d51d1020ee3cddeaeaf380691b2438709959d9c
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.159.0 to 32.159.1
+- commits:
+    - ? body
+- version: 1.0.44
+- date: 2022-08-13T01:26:32Z
+- commits:
+    - hash: 67116c97cc5d8765694546bd4b924e6ca2d92237
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.151.2 to 32.159.0
+- commits:
+    - ? body
+- version: 1.0.43
+- date: 2022-08-07T14:08:43Z
+- commits:
+    - hash: c23519679555be7b78c63c94557f93ded91c74de
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.151.1 to 32.151.2
+- commits:
+    - ? body
+- version: 1.0.42
+- date: 2022-08-07T06:16:55Z
+- commits:
+    - hash: 894e9efc742666bc5c3c938ff3a9d28c7bd46d2f
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.150.4 to 32.151.1
+- commits:
+    - ? body
+- version: 1.0.41
+- date: 2022-08-06T15:33:07Z
+- commits:
+    - hash: 95f21d0c4f42d21808c1e4d892ec4b8b74ec0102
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.150.2 to 32.150.4
+- commits:
+    - ? body
+- version: 1.0.40
+- date: 2022-08-06T09:52:48Z
+- commits:
+    - hash: 1431b0667511e32a71bfcab5ded56475fa422033
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.150.0 to 32.150.2
+- commits:
+    - ? body
+- version: 1.0.39
+- date: 2022-08-06T00:28:54Z
+- commits:
+    - hash: 7785ffc7e91cc09c8cd40e38de967d429d5f8e19
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update renovate from 32.135.1 to 32.150.0
+- commits:
+    - ? body
+- version: 1.0.38
+- date: 2022-07-31T13:00:01Z
+- commits:
+    - hash: b1c072c078c11409232860ce3f83082714031a86
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@monarci.com>
+- commits:
+    - subject: Reduce concurrency from 2 to 1
+- commits:
+    - body: |-
+        A concurrency of 2 creates too many competing pull requests in most
+        repos. product-os/jellyfish needs at least 2, so will override in its
+        renovate config.
+- version: 1.0.37
+- date: 2022-07-31T10:59:37Z
+- commits:
+    - hash: 1f6157b256eb2f13c0b90e28b45be5380b8c4614
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@monarci.com>
+- commits:
+    - subject: Reduce concurrency from 3 to 2
+- commits:
+    - body: |-
+        Reduce concurrency as one of our two package rule groups is not
+        used very often and we instead end up having two mergeable PRs
+        fighting with one another. This results in one of them merging and the
+        other having to be rebased and trying again.
+- version: 1.0.36
+- date: 2022-07-31T08:09:20Z
+- commits:
+    - hash: b8fb4a7e8ed39e797ce14210d6d7f98c7d491d44
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@monarci.com>
+- commits:
+    - subject: Drop commit message override for non-grouped bumps
+- commits:
+    - ? body
+- version: 1.0.35
+- date: 2022-07-31T06:57:54Z
+- commits:
+    - hash: 9ff76d33ebedd4948c92884b498c811e2c4b00a8
+- commits:
+    - author: renovate[bot]
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update dependencies from 32.78.1 to 32.135.1
+- commits:
+    - ? body
+- version: 1.0.34
+- date: 2022-07-31T06:50:25Z
+- commits:
+    - hash: 7e46bbbe7460e6aaffd3a35737ab717b3ee8b4a6
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@monarci.com>
+- commits:
+    - subject: Revert balena-io config extend
+- commits:
+    - ? body
+- version: 1.0.33
+- date: 2022-07-31T01:52:02Z
+- commits:
+    - hash: efb7a3a0d6adba70272cdc24d2bfc70a29457763
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@monarci.com>
+- commits:
+    - subject: Update renovate config
+- commits:
+    - ? body
+- version: 1.0.32
+- date: 2022-07-31T01:18:32Z
+- commits:
+    - hash: 7fbaf9f843a51bf7c455a8f951168bd172d054c7
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@monarci.com>
+- commits:
+    - subject: Update concurrent limits
+- commits:
+    - ? body
+- version: 1.0.31
+- date: 2022-07-31T00:56:28Z
+- commits:
+    - hash: 45d07c4abd98f9bc5449ccd93168fc237c95dcbb
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@monarci.com>
+- commits:
+    - subject: Extend balena-io config
+- commits:
+    - ? body
+- version: 1.0.30
+- date: 2022-07-04T06:31:20Z
+- commits:
+    - hash: 4797e2e37b55872e0d336d97f0af3dc91b13356b
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Auto-approve dev dep bumps
+- commits:
+    - ? body
+- version: 1.0.29
+- date: 2022-06-21T23:21:34Z
+- commits:
+    - hash: 86e8ee8a217dbd376f4650eea9482ec3c7a2e15c
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Explicitly disable submodule management
+- commits:
+    - ? body
+- version: 1.0.28
+- date: 2022-06-18T00:35:34Z
+- commits:
+    - hash: d00e38fc76b137ceae56da1663fbc0beffe31fbb
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Disable submodule bumps
+- commits:
+    - body: |-
+        Disabling Renovate submodule updates as I've seen cases in which
+        it tries to delete them instead. We don't update secrets very
+        often anyway.
+- version: 1.0.27
+- date: 2022-06-18T00:06:11Z
+- commits:
+    - hash: 70b9c7abaebf9d1104f4882e6b89ffcadb9d49d6
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Drop typescript package exceptions
+- commits:
+    - ? body
+- version: 1.0.26
+- date: 2022-06-09T03:26:04Z
+- commits:
+    - hash: e559d6ac8f0359b8f4c21925cf3ac409f61ce085
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update dependencies (external non-major bumps)
+- commits:
+    - ? body
+- version: 1.0.25
+- date: 2022-06-09T03:12:57Z
+- commits:
+    - hash: 99f16221a252fcccf4daf4797a26fa7e1b187a27
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Set concurrent PR limit to 2
+- commits:
+    - ? body
+- version: 1.0.24
+- date: 2022-04-15T03:41:57Z
+- commits:
+    - hash: 317c44d8c77a42e3ca820f25cadc978e069226f8
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Enable git submodules
+- commits:
+    - ? body
+- version: 1.0.23
+- date: 2022-03-17T09:50:17Z
+- commits:
+    - hash: 05d03dfafbc7487c255b39ec396187212a239d0e
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Update rules for autumndb
+- commits:
+    - ? body
+- version: 1.0.22
+- date: 2022-03-06T00:36:57Z
+- commits:
+    - hash: 657157c1d9396155569c5631dda7edcd868aca47
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Update typescript separately
+- commits:
+    - ? body
+- version: 1.0.21
+- date: 2022-03-06T00:26:18Z
+- commits:
+    - hash: a5b9fb1645c5bbe505e4c64c81d806be8325ac36
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update dependencies (external major bumps)
+- commits:
+    - ? body
+- version: 1.0.20
+- date: 2022-01-29T05:45:32Z
+- commits:
+    - hash: 7ccddb8d54e89c61f331a47422ba95e536bec6b8
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update dependencies (external non-major bumps)
+- commits:
+    - ? body
+- version: 1.0.19
+- date: 2022-01-28T00:17:50Z
+- commits:
+    - hash: 922102ef397c340bb54b5c5a05981c858283b6ee
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Add docker-compose to enabled managers
+- commits:
+    - ? body
+- version: 1.0.18
+- date: 2022-01-26T09:55:07Z
+- commits:
+    - hash: 67f88972013b1909209279142fb2e0faf462c7eb
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Update commit message
+- commits:
+    - body: For versioned changelogs
+- version: 1.0.17
+- date: 2022-01-26T09:10:27Z
+- commits:
+    - hash: 5e0c436c6dca8fefc62fd1c8265fe48fc096c836
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^31.56.0"
+- commits:
+    - ? body
+- version: 1.0.16
+- date: 2022-01-26T00:57:28Z
+- commits:
+    - hash: 08c59f0e0c8eeff4be919bac0c53fb8ec3911298
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: No longer group internal minor bumps
+- commits:
+    - body: For versioned changelogs
+- version: 1.0.15
+- date: 2022-01-23T01:58:26Z
+- commits:
+    - hash: cb1d4923df6f4ed4b9e6b7c6270c245177b39bb1
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^31.44.0"
+- commits:
+    - ? body
+- version: 1.0.14
+- date: 2022-01-19T06:33:19Z
+- commits:
+    - hash: 35c7d443848839099f730994e560105d24e9d9d1
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Update zero minor bump rules
+- commits:
+    - ? body
+- version: 1.0.13
+- date: 2022-01-18T06:27:24Z
+- commits:
+    - hash: a1cf0ac039849ff4fc4f7efa393419753fdcd625
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Treat 0.x minor bumps as majors
+- commits:
+    - body: |-
+        According to semver documentation 0.x minor bumps
+        can include breaking changes meaning we should
+        treat them the same as majors.
+- version: 1.0.12
+- date: 2022-01-16T22:40:48Z
+- commits:
+    - hash: 09a0414ec553764eb7f489ec3c50524c74444b13
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^31.28.2"
+- commits:
+    - ? body
+- version: 1.0.11
+- date: 2022-01-16T07:07:35Z
+- commits:
+    - hash: 3e74961121ee7f9e0cdac8b227c89399fe6fb6ef
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^31.28.0"
+- commits:
+    - ? body
+- version: 1.0.10
+- date: 2022-01-13T03:43:11Z
+- commits:
+    - hash: 70c85f7d118ec0091ccfdcae8a9ba2f660eb685e
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Update node and npm to latest lts
+- commits:
+    - ? body
+- version: 1.0.9
+- date: 2022-01-10T23:10:40Z
+- commits:
+    - hash: c6a57e253c381f3b2a6e867bd70ed8c2d5443329
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^31.22.1"
+- commits:
+    - ? body
+- version: 1.0.8
+- date: 2022-01-08T11:09:34Z
+- commits:
+    - hash: 230eab9b7875467da4c14500513f77271251bc0c
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^31.21.0"
+- commits:
+    - ? body
+- version: 1.0.7
+- date: 2022-01-03T02:23:47Z
+- commits:
+    - hash: 5a12cad1286f34a31b859de4d0cd47f9820a9dd0
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^31.14.1"
+- commits:
+    - ? body
+- version: 1.0.6
+- date: 2021-12-19T02:06:07Z
+- commits:
+    - hash: 18af881301d733a609018dea6cac7e1e6b8a88b3
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to v31"
+- commits:
+    - ? body
+- version: 1.0.5
+- date: 2021-12-14T03:27:30Z
+- commits:
+    - hash: c8568dc5aad49e3ed947df0cac66a1a275965b46
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^30.4.1"
+- commits:
+    - ? body
+- version: 1.0.4
+- date: 2021-12-11T05:58:33Z
+- commits:
+    - hash: af9ddad37c86140b0a9a2d03d0fbf1529d0c3e0e
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to v30"
+- commits:
+    - ? body
+- version: 1.0.3
+- date: 2021-12-10T02:17:18Z
+- commits:
+    - hash: 6d6ccdbe39abc2eeceffeb04c2a65eaa11d66106
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Stop excluding typescript from group
+- commits:
+    - ? body
+- version: 1.0.2
+- date: 2021-12-10T02:00:20Z
+- commits:
+    - hash: c7ca9d0fdb7239c2e8e01e12af652dc6417aa8cc
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^29.36.2"
+- commits:
+    - ? body
+- version: 1.0.1
+- date: 2021-12-03T13:47:05Z
+- commits:
+    - hash: b91bbbb62e53734976c076524ee9e8119cb802eb
+- commits:
+    - author: Renovate Bot
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "patch: Update dependency renovate to ^29.32.0"
+- commits:
+    - ? body
+- version: 1.0.0
+- date: 2021-11-25T04:19:03Z
+- commits:
+    - hash: 6cf5387b5c5e9ba3d2f9253fc3e298cbf351065f
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Add dotfiles and tests
+- commits:
+    - ? body
+- commits:
+    - hash: a68b16517f1ae5436d34795d3d277ad098ce7d73
+- commits:
+    - author: Josh Bowling
+- commits:
+    - footers:
+        change-type: major
+- commits:
+    - footers:
+        signed-off-by: Josh Bowling <josh@balena.io>
+- commits:
+    - subject: Add Renovate config
+- commits:
+    - ? body

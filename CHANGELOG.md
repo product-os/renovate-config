@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.70 - 2022-10-02
+
+* CI: Move to flowzone [Josh Bowling]
+
 ## 1.0.69 - 2022-09-25
 
 * Update renovate from 32.202.4 to 32.203.0 [renovate[bot]]
