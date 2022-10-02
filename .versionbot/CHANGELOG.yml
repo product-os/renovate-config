@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update renovate from 32.203.0 to 32.212.0
+      hash: dc793318b32a834bbbf2f19506f02dde588568e0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 1.0.71
+  title: ""
+  date: 2022-10-02T07:23:46.004Z
+- commits:
     - subject: "CI: Move to flowzone"
       hash: 11b50fd0282a2bb1f535daa5b98fcf870c21408e
       body: ""
