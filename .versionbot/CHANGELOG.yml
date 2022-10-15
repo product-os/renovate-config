@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update renovate from 32.226.0 to 32.238.1
+      hash: 5630d841fe42194aed028766a0e200cadc824a1f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 1.0.76
+  title: ""
+  date: 2022-10-15T00:09:48.572Z
+- commits:
     - subject: Update renovate from 32.225.1 to 32.226.0
       hash: 2a5637bb033d91575f7f5af8b099e17a35a421f0
       body: ""
@@ -93,7 +105,7 @@
 - commits:
     - subject: Update renovate from 32.202.3 to 32.202.4
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.67
 - date: 2022-09-24T01:32:51Z
 - commits:
@@ -106,7 +118,7 @@
 - commits:
     - subject: Update renovate from 32.198.1 to 32.202.3
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.66
 - date: 2022-09-18T11:50:32Z
 - commits:
@@ -119,7 +131,7 @@
 - commits:
     - subject: Update renovate from 32.197.2 to 32.198.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.65
 - date: 2022-09-18T06:45:25Z
 - commits:
@@ -132,7 +144,7 @@
 - commits:
     - subject: Update renovate from 32.197.1 to 32.197.2
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.64
 - date: 2022-09-17T21:44:18Z
 - commits:
@@ -145,7 +157,7 @@
 - commits:
     - subject: Update renovate from 32.197.0 to 32.197.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.63
 - date: 2022-09-17T11:06:52Z
 - commits:
@@ -158,7 +170,7 @@
 - commits:
     - subject: Update renovate from 32.196.0 to 32.197.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.62
 - date: 2022-09-17T02:51:58Z
 - commits:
@@ -171,7 +183,7 @@
 - commits:
     - subject: Update renovate from 32.194.5 to 32.196.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.61
 - date: 2022-09-11T20:48:35Z
 - commits:
@@ -184,7 +196,7 @@
 - commits:
     - subject: Update renovate from 32.194.4 to 32.194.5
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.60
 - date: 2022-09-10T11:53:37Z
 - commits:
@@ -197,7 +209,7 @@
 - commits:
     - subject: Update renovate from 32.194.3 to 32.194.4
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.59
 - date: 2022-09-10T00:40:57Z
 - commits:
@@ -210,7 +222,7 @@
 - commits:
     - subject: Update renovate from 32.190.3 to 32.194.3
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.58
 - date: 2022-09-04T17:31:29Z
 - commits:
@@ -223,7 +235,7 @@
 - commits:
     - subject: Update renovate from 32.190.2 to 32.190.3
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.57
 - date: 2022-09-04T13:35:59Z
 - commits:
@@ -236,7 +248,7 @@
 - commits:
     - subject: Update renovate from 32.190.1 to 32.190.2
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.56
 - date: 2022-09-04T07:09:15Z
 - commits:
@@ -249,7 +261,7 @@
 - commits:
     - subject: Update renovate from 32.190.0 to 32.190.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.55
 - date: 2022-09-03T17:16:18Z
 - commits:
@@ -262,7 +274,7 @@
 - commits:
     - subject: Update renovate from 32.189.1 to 32.190.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.54
 - date: 2022-09-03T13:16:04Z
 - commits:
@@ -275,7 +287,7 @@
 - commits:
     - subject: Update renovate from 32.189.0 to 32.189.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.53
 - date: 2022-09-03T02:36:42Z
 - commits:
@@ -288,7 +300,7 @@
 - commits:
     - subject: Update renovate from 32.181.0 to 32.189.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.52
 - date: 2022-08-28T20:26:44Z
 - commits:
@@ -301,7 +313,7 @@
 - commits:
     - subject: Update renovate from 32.180.1 to 32.181.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.51
 - date: 2022-08-28T14:08:35Z
 - commits:
@@ -314,7 +326,7 @@
 - commits:
     - subject: Update renovate from 32.180.0 to 32.180.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.50
 - date: 2022-08-28T06:48:29Z
 - commits:
@@ -327,7 +339,7 @@
 - commits:
     - subject: Update renovate from 32.169.1 to 32.180.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.49
 - date: 2022-08-21T13:41:34Z
 - commits:
@@ -340,7 +352,7 @@
 - commits:
     - subject: Update renovate from 32.169.0 to 32.169.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.48
 - date: 2022-08-21T07:03:04Z
 - commits:
@@ -353,7 +365,7 @@
 - commits:
     - subject: Update renovate from 32.168.0 to 32.169.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.47
 - date: 2022-08-20T06:01:09Z
 - commits:
@@ -366,7 +378,7 @@
 - commits:
     - subject: Update renovate from 32.167.0 to 32.168.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.46
 - date: 2022-08-20T00:59:42Z
 - commits:
@@ -379,7 +391,7 @@
 - commits:
     - subject: Update renovate from 32.159.1 to 32.167.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.45
 - date: 2022-08-14T17:52:02Z
 - commits:
@@ -392,7 +404,7 @@
 - commits:
     - subject: Update renovate from 32.159.0 to 32.159.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.44
 - date: 2022-08-13T01:26:32Z
 - commits:
@@ -405,7 +417,7 @@
 - commits:
     - subject: Update renovate from 32.151.2 to 32.159.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.43
 - date: 2022-08-07T14:08:43Z
 - commits:
@@ -418,7 +430,7 @@
 - commits:
     - subject: Update renovate from 32.151.1 to 32.151.2
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.42
 - date: 2022-08-07T06:16:55Z
 - commits:
@@ -431,7 +443,7 @@
 - commits:
     - subject: Update renovate from 32.150.4 to 32.151.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.41
 - date: 2022-08-06T15:33:07Z
 - commits:
@@ -444,7 +456,7 @@
 - commits:
     - subject: Update renovate from 32.150.2 to 32.150.4
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.40
 - date: 2022-08-06T09:52:48Z
 - commits:
@@ -457,7 +469,7 @@
 - commits:
     - subject: Update renovate from 32.150.0 to 32.150.2
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.39
 - date: 2022-08-06T00:28:54Z
 - commits:
@@ -470,7 +482,7 @@
 - commits:
     - subject: Update renovate from 32.135.1 to 32.150.0
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.38
 - date: 2022-07-31T13:00:01Z
 - commits:
@@ -525,7 +537,7 @@
 - commits:
     - subject: Drop commit message override for non-grouped bumps
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.35
 - date: 2022-07-31T06:57:54Z
 - commits:
@@ -538,7 +550,7 @@
 - commits:
     - subject: Update dependencies from 32.78.1 to 32.135.1
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.34
 - date: 2022-07-31T06:50:25Z
 - commits:
@@ -554,7 +566,7 @@
 - commits:
     - subject: Revert balena-io config extend
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.33
 - date: 2022-07-31T01:52:02Z
 - commits:
@@ -570,7 +582,7 @@
 - commits:
     - subject: Update renovate config
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.32
 - date: 2022-07-31T01:18:32Z
 - commits:
@@ -586,7 +598,7 @@
 - commits:
     - subject: Update concurrent limits
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.31
 - date: 2022-07-31T00:56:28Z
 - commits:
@@ -602,7 +614,7 @@
 - commits:
     - subject: Extend balena-io config
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.30
 - date: 2022-07-04T06:31:20Z
 - commits:
@@ -618,7 +630,7 @@
 - commits:
     - subject: Auto-approve dev dep bumps
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.29
 - date: 2022-06-21T23:21:34Z
 - commits:
@@ -634,7 +646,7 @@
 - commits:
     - subject: Explicitly disable submodule management
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.28
 - date: 2022-06-18T00:35:34Z
 - commits:
@@ -669,7 +681,7 @@
 - commits:
     - subject: Drop typescript package exceptions
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.26
 - date: 2022-06-09T03:26:04Z
 - commits:
@@ -682,7 +694,7 @@
 - commits:
     - subject: Update dependencies (external non-major bumps)
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.25
 - date: 2022-06-09T03:12:57Z
 - commits:
@@ -698,7 +710,7 @@
 - commits:
     - subject: Set concurrent PR limit to 2
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.24
 - date: 2022-04-15T03:41:57Z
 - commits:
@@ -714,7 +726,7 @@
 - commits:
     - subject: Enable git submodules
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.23
 - date: 2022-03-17T09:50:17Z
 - commits:
@@ -730,7 +742,7 @@
 - commits:
     - subject: Update rules for autumndb
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.22
 - date: 2022-03-06T00:36:57Z
 - commits:
@@ -746,7 +758,7 @@
 - commits:
     - subject: Update typescript separately
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.21
 - date: 2022-03-06T00:26:18Z
 - commits:
@@ -759,7 +771,7 @@
 - commits:
     - subject: Update dependencies (external major bumps)
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.20
 - date: 2022-01-29T05:45:32Z
 - commits:
@@ -772,7 +784,7 @@
 - commits:
     - subject: Update dependencies (external non-major bumps)
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.19
 - date: 2022-01-28T00:17:50Z
 - commits:
@@ -788,7 +800,7 @@
 - commits:
     - subject: Add docker-compose to enabled managers
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.18
 - date: 2022-01-26T09:55:07Z
 - commits:
@@ -817,7 +829,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^31.56.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.16
 - date: 2022-01-26T00:57:28Z
 - commits:
@@ -846,7 +858,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^31.44.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.14
 - date: 2022-01-19T06:33:19Z
 - commits:
@@ -862,7 +874,7 @@
 - commits:
     - subject: Update zero minor bump rules
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.13
 - date: 2022-01-18T06:27:24Z
 - commits:
@@ -894,7 +906,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^31.28.2"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.11
 - date: 2022-01-16T07:07:35Z
 - commits:
@@ -907,7 +919,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^31.28.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.10
 - date: 2022-01-13T03:43:11Z
 - commits:
@@ -923,7 +935,7 @@
 - commits:
     - subject: Update node and npm to latest lts
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.9
 - date: 2022-01-10T23:10:40Z
 - commits:
@@ -936,7 +948,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^31.22.1"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.8
 - date: 2022-01-08T11:09:34Z
 - commits:
@@ -949,7 +961,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^31.21.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.7
 - date: 2022-01-03T02:23:47Z
 - commits:
@@ -962,7 +974,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^31.14.1"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.6
 - date: 2021-12-19T02:06:07Z
 - commits:
@@ -975,7 +987,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to v31"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.5
 - date: 2021-12-14T03:27:30Z
 - commits:
@@ -988,7 +1000,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^30.4.1"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.4
 - date: 2021-12-11T05:58:33Z
 - commits:
@@ -1001,7 +1013,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to v30"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.3
 - date: 2021-12-10T02:17:18Z
 - commits:
@@ -1017,7 +1029,7 @@
 - commits:
     - subject: Stop excluding typescript from group
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.2
 - date: 2021-12-10T02:00:20Z
 - commits:
@@ -1030,7 +1042,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^29.36.2"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.1
 - date: 2021-12-03T13:47:05Z
 - commits:
@@ -1043,7 +1055,7 @@
 - commits:
     - subject: "patch: Update dependency renovate to ^29.32.0"
 - commits:
-    - ? body
+    - body: null
 - version: 1.0.0
 - date: 2021-11-25T04:19:03Z
 - commits:
@@ -1059,7 +1071,7 @@
 - commits:
     - subject: Add dotfiles and tests
 - commits:
-    - ? body
+    - body: null
 - commits:
     - hash: a68b16517f1ae5436d34795d3d277ad098ce7d73
 - commits:
@@ -1073,4 +1085,4 @@
 - commits:
     - subject: Add Renovate config
 - commits:
-    - ? body
+    - body: null

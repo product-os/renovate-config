@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.76 - 2022-10-15
+
+* Update renovate from 32.226.0 to 32.238.1 [renovate[bot]]
+
 ## 1.0.75 - 2022-10-09
 
 * Update renovate from 32.225.1 to 32.226.0 [renovate[bot]]
