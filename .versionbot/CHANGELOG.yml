@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update renovate from 32.238.3 to 32.238.4
+      hash: 177a1b35fccd8dec13823ec4c838d3f1eacf7168
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 1.0.79
+  title: ""
+  date: 2022-10-16T08:44:21.568Z
+- commits:
     - subject: Update renovate from 32.238.2 to 32.238.3
       hash: f186961c5f1829cbce6a0e2ad14e3e409822bf21
       body: ""
