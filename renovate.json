@@ -6,7 +6,8 @@
   "enabledManagers": [
     "npm",
     "dockerfile",
-    "docker-compose"
+    "docker-compose",
+    "github-actions"
   ],
   "git-submodules": {
     "enabled": false
