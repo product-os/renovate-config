@@ -1,4 +1,20 @@
 - commits:
+    - subject: Enable Github Actions manager
+      hash: 977b5a2228dc78bb42107eed297de2872428abb4
+      body: |
+        This action will bump pinned versions of github actions and should
+        be low risk to enable.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.0.84
+  title: ""
+  date: 2022-11-23T15:02:52.019Z
+- commits:
     - subject: Update renovate from 32.241.10 to 32.241.11
       hash: 22fad2c9b92126b99aa0140a9d0ec0ca9d17e178
       body: ""
