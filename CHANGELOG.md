@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.85 - 2022-12-13
+
+* Use GitHub workflow [Josh Bowling]
+
 ## 1.0.84 - 2022-11-23
 
 * Enable Github Actions manager [Kyle Harding]

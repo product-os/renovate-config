@@ -1,4 +1,16 @@
 - commits:
+    - subject: Use GitHub workflow
+      hash: 2d79cd370ecb4847536c18a2bc65c9c45fce8f71
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 1.0.85
+  title: ""
+  date: 2022-12-13T02:42:40.420Z
+- commits:
     - subject: Enable Github Actions manager
       hash: 977b5a2228dc78bb42107eed297de2872428abb4
       body: |
