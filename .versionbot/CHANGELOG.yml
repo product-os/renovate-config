@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove balena-io from extends list
+      hash: 5946da4c7bfa42934774023a0f8698e20df792ea
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 1.0.87
+  title: ""
+  date: 2022-12-13T02:55:59.629Z
+- commits:
     - subject: Update dependency renovate to 34.55.0
       hash: 7ba8793d5f877a3021273c002a6c22ebfd6491eb
       body: |

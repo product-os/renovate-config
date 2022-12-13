@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.87 - 2022-12-13
+
+* Remove balena-io from extends list [Josh Bowling]
+
 ## 1.0.86 - 2022-12-13
 
 * Update dependency renovate to 34.55.0 [renovate[bot]]
