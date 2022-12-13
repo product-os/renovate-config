@@ -1,0 +1,132 @@
+{
+  "extends": [
+    ":preserveSemverRanges",
+    "config:base",
+    "docker:enableMajor",
+    "github>balena-io/renovate-config//.github/renovate"
+  ],
+  "printConfig": true,
+  "prHourlyLimit": 0,
+  "onboarding": false,
+  "requireConfig": false,
+  "cloneSubmodules": true,
+  "rebaseWhen": "behind-base-branch",
+  "git-submodules": {
+    "enabled": true
+  },
+  "labels": [
+    "renovate",
+    "dependencies"
+  ],
+  "automergeComment": "@balena-ci I self-certify!",
+  "automergeType": "pr-comment",
+  "commitMessageExtra": "to {{{replace 'v' '' newVersion}}}",
+  "commitBody": "Update {{depName}} to {{{replace 'v' '' newVersion}}}\n\nUpdate {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{#if (or isPatch (containsString depType 'devDependencies'))}}patch{{else}}minor{{/if}}",
+  "prConcurrentLimit": 2,
+  "branchConcurrentLimit": 2,
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**",
+    "**/examples/**",
+    "**/__tests__/**",
+    "**/test/**",
+    "**/tests/suites/**",
+    "**/__fixtures__/**",
+    "**/Dockerfile.template"
+  ],
+  "repositories": [
+    "product-os/autumndb",
+    "product-os/jellyfish-assert",
+    "product-os/jellyfish-environment",
+    "product-os/jellyfish-jellyscript",
+    "product-os/jellyfish-logger",
+    "product-os/jellyfish-metrics",
+    "product-os/jellyfish-worker"
+  ],
+  "packageRules": [
+    {
+      "automerge": true,
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true
+    },
+    {
+      "matchManagers": [
+        "git-submodules"
+      ],
+      "automerge": true,
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest"
+      ]
+    }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "(^|\\/)Dockerfile(\\.[:alnum:]+)?$"
+      ],
+      "matchStrings": [
+        "ENV PROMETHEUS_VERSION[= ]v?(?<currentValue>.*?)\\n",
+        "ARG PROMETHEUS_VERSION[= ]v?(?<currentValue>.*?)\\n"
+      ],
+      "depNameTemplate": "prometheus/prometheus",
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^v(?<version>.*)$"
+    },
+    {
+      "fileMatch": [
+        "(^|\\/)Dockerfile(\\.[:alnum:]+)?$"
+      ],
+      "matchStrings": [
+        "ENV GRAFANA_VERSION[= ]v?(?<currentValue>.*?)\\n",
+        "ARG GRAFANA_VERSION[= ]v?(?<currentValue>.*?)\\n"
+      ],
+      "depNameTemplate": "grafana/grafana",
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^v(?<version>.*)$"
+    },
+    {
+      "fileMatch": [
+        "(^|\\/)Dockerfile(\\.[:alnum:]+)?$"
+      ],
+      "matchStrings": [
+        "ENV NODE_VERSION[= ](?<currentValue>.*?)\\n",
+        "ARG NODE_VERSION[= ](?<currentValue>.*?)\\n"
+      ],
+      "depNameTemplate": "node",
+      "datasourceTemplate": "node"
+    },
+    {
+      "fileMatch": [
+        "(^|\\/)Dockerfile(\\.[[:alnum:]]+)?$"
+      ],
+      "matchStrings": [
+        "ENV NPM_VERSION[= ](?<currentValue>.*?)\\n",
+        "ARG NPM_VERSION[= ](?<currentValue>.*?)\\n"
+      ],
+      "depNameTemplate": "npm",
+      "datasourceTemplate": "npm"
+    },
+    {
+      "fileMatch": [
+        "(^|\\/)(?:docker-)?compose[^/]*\\.ya?ml$",
+        "(^|\\/)Dockerfile(\\.[[:alnum:]]+)?$"
+      ],
+      "matchStrings": [
+        "image: (?<depName>.*[^\\/])\\/(?<currentValue>.*?)\\n",
+        "FROM (?<depName>.*[^\\/])\\/(?<currentValue>.*?)\\n"
+      ],
+      "datasourceTemplate": "docker"
+    }
+  ]
+}

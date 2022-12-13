@@ -1,0 +1,31 @@
+---
+name: Renovate
+on:
+  schedule:
+    - cron: '42 * * * *'
+  pull_request:
+    branches:
+      - master
+
+env:
+  LOG_LEVEL: debug
+
+jobs:
+  renovate:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Enable dry-run
+        run: echo "RENOVATE_DRY_RUN=full" >> $GITHUB_ENV
+        if: github.event_name == 'pull_request'
+
+      # https://github.com/renovatebot
+      - uses: renovatebot/github-action@v34.55.0
+        with:
+          # https://docs.renovatebot.com/configuration-options
+          configurationFile: .github/renovate.json
+          token: ${{ secrets.FLOWZONE_TOKEN }}
+        env:
+          RENOVATE_DRY_RUN: ${{ env.RENOVATE_DRY_RUN }}
+          RENOVATE_HOST_RULES: '[{"hostType":"docker","username":"${{ env.DOCKERHUB_USER }}","password":"${{ secrets.DOCKERHUB_TOKEN }}"}]'
