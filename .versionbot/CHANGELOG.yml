@@ -1,4 +1,29 @@
 - commits:
+    - subject: Add Flowzone to repositories
+      hash: f1847b823ca6ff2efebedcf563414b40fbc945da
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Pin GitHub Actions digests
+      hash: 0814965dcfba619caff16f106e3794c47ce405d8
+      body: >
+        https://docs.renovatebot.com/modules/manager/github-actions/#additional-information
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.0.89
+  title: ""
+  date: 2022-12-13T15:37:56.772Z
+- commits:
     - subject: Add more repos
       hash: 93661eb0f378cf8c754a91bd5ae6ce6afc6fe019
       body: ""

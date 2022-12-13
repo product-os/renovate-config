@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.89 - 2022-12-13
+
+* Add Flowzone to repositories [Kyle Harding]
+* Pin GitHub Actions digests [Kyle Harding]
+
 ## 1.0.88 - 2022-12-13
 
 * Add more repos [Josh Bowling]
