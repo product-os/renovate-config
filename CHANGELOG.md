@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.86 - 2022-12-13
+
+* Update dependency renovate to 34.55.0 [renovate[bot]]
+
 ## 1.0.85 - 2022-12-13
 
 * Use GitHub workflow [Josh Bowling]

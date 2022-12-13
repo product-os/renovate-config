@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update dependency renovate to 34.55.0
+      hash: 7ba8793d5f877a3021273c002a6c22ebfd6491eb
+      body: |
+        Update renovate to 34.55.0
+
+        Update renovate from 32.241.11 to 34.55.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 1.0.86
+  title: ""
+  date: 2022-12-13T02:48:14.593Z
+- commits:
     - subject: Use GitHub workflow
       hash: 2d79cd370ecb4847536c18a2bc65c9c45fce8f71
       body: ""
