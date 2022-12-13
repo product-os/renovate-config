@@ -2,7 +2,8 @@
   "extends": [
     ":preserveSemverRanges",
     "config:base",
-    "docker:enableMajor"
+    "docker:enableMajor",
+    "helpers:pinGitHubActionDigests"
   ],
   "printConfig": true,
   "prHourlyLimit": 0,
