@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add more repos
+      hash: 93661eb0f378cf8c754a91bd5ae6ce6afc6fe019
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 1.0.88
+  title: ""
+  date: 2022-12-13T03:14:04.494Z
+- commits:
     - subject: Remove balena-io from extends list
       hash: 5946da4c7bfa42934774023a0f8698e20df792ea
       body: ""
