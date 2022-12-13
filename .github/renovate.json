@@ -2,7 +2,8 @@
   "extends": [
     ":preserveSemverRanges",
     "config:base",
-    "docker:enableMajor"
+    "docker:enableMajor",
+    "helpers:pinGitHubActionDigests"
   ],
   "printConfig": true,
   "prHourlyLimit": 0,
@@ -54,7 +55,8 @@
     "product-os/jellyfish-plugin-incidents",
     "product-os/jellyfish-plugin-outreach",
     "product-os/jellyfish-plugin-typeform",
-    "product-os/jellyfish-worker"
+    "product-os/jellyfish-worker",
+    "product-os/flowzone"
   ],
   "packageRules": [
     {
