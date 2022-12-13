@@ -1,4 +1,18 @@
 - commits:
+    - subject: Allow post-upgrade comands starting with npm
+      hash: c938089f087ff1683ad318f46b5ff855fb747515
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.0.90
+  title: ""
+  date: 2022-12-13T20:59:16.177Z
+- commits:
     - subject: Add Flowzone to repositories
       hash: f1847b823ca6ff2efebedcf563414b40fbc945da
       body: ""
