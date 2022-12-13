@@ -11,6 +11,10 @@
   "requireConfig": false,
   "cloneSubmodules": true,
   "rebaseWhen": "behind-base-branch",
+  "allowPostUpgradeCommandTemplating": true,
+  "allowedPostUpgradeCommands": [
+    "^npm"
+  ],
   "git-submodules": {
     "enabled": true
   },
