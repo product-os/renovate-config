@@ -55,7 +55,8 @@
     "product-os/jellyfish-plugin-incidents",
     "product-os/jellyfish-plugin-outreach",
     "product-os/jellyfish-plugin-typeform",
-    "product-os/jellyfish-worker"
+    "product-os/jellyfish-worker",
+    "product-os/flowzone"
   ],
   "packageRules": [
     {
