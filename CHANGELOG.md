@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.0.91 - 2022-12-14
+
+* Add resinci-deploy to repo list [Josh Bowling]
+
 ## 1.0.90 - 2022-12-13
 
 * Allow post-upgrade comands starting with npm [Kyle Harding]

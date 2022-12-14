@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add resinci-deploy to repo list
+      hash: db1a8b34f28c03238ee035fae6ee55f3f2961e62
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 1.0.91
+  title: ""
+  date: 2022-12-14T00:10:16.398Z
+- commits:
     - subject: Allow post-upgrade comands starting with npm
       hash: c938089f087ff1683ad318f46b5ff855fb747515
       body: ""
