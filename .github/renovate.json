@@ -41,6 +41,7 @@
   ],
   "repositories": [
     "product-os/autumndb",
+    "product-os/flowzone",
     "product-os/hubot",
     "product-os/jellyfish",
     "product-os/jellyfish-assert",
@@ -60,7 +61,7 @@
     "product-os/jellyfish-plugin-outreach",
     "product-os/jellyfish-plugin-typeform",
     "product-os/jellyfish-worker",
-    "product-os/flowzone"
+    "product-os/resinci-deploy"
   ],
   "packageRules": [
     {
