@@ -41,6 +41,10 @@
   ],
   "repositories": [
     "product-os/autumndb",
+    "product-os/balena-cloudwatch-exporter",
+    "product-os/balena-jenkins",
+    "product-os/balena-redis-exporter",
+    "product-os/balena-versionist",
     "product-os/flowzone",
     "product-os/hubot",
     "product-os/jellyfish",
@@ -61,7 +65,8 @@
     "product-os/jellyfish-plugin-outreach",
     "product-os/jellyfish-plugin-typeform",
     "product-os/jellyfish-worker",
-    "product-os/resinci-deploy"
+    "product-os/resinci-deploy",
+    "product-os/versionbot"
   ],
   "packageRules": [
     {
