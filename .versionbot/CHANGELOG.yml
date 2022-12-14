@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add more product-os repos
+      hash: 409d60de6413450b786b559bcde929284c8ce552
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 1.0.92
+  title: ""
+  date: 2022-12-14T00:20:12.375Z
+- commits:
     - subject: Add resinci-deploy to repo list
       hash: db1a8b34f28c03238ee035fae6ee55f3f2961e62
       body: ""
