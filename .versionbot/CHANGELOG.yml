@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove product-os/jellyfish-plugin-flowdock
+      hash: 7d5879448c4f06bd64622882db1addc3455bf34e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 1.0.93
+  title: ""
+  date: 2022-12-28T07:06:20.825Z
+- commits:
     - subject: Add more product-os repos
       hash: 409d60de6413450b786b559bcde929284c8ce552
       body: ""
