@@ -57,7 +57,6 @@
     "product-os/jellyfish-plugin-balena-api",
     "product-os/jellyfish-plugin-discourse",
     "product-os/jellyfish-plugin-feedback",
-    "product-os/jellyfish-plugin-flowdock",
     "product-os/jellyfish-plugin-front",
     "product-os/jellyfish-plugin-github",
     "product-os/jellyfish-plugin-hubot",
