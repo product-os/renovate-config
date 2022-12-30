@@ -1,6 +1,7 @@
 {
   "name": "@balena/renovate-config",
   "version": "1.2.0",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/renovate-config.git"
