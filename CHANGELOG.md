@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.1.0 - 2022-12-30
+
+* Pin dependencies [Renovate Bot]
+
 ## 1.0.94 - 2022-12-30
 
 * Renovate renovate [Anton Belodedenko]

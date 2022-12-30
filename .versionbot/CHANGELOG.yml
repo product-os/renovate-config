@@ -1,4 +1,19 @@
 - commits:
+    - subject: Pin dependencies
+      hash: 7e458d8e352c59253d1a90c9a2c3847f63dd73fc
+      body: |
+        Update actions/checkout to
+
+        Update actions/checkout from 3 to
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 1.1.0
+  title: ""
+  date: 2022-12-30T18:01:35.374Z
+- commits:
     - subject: Renovate renovate
       hash: b4ed8bb09a481b470e3e2b49e9617d430aef200e
       body: ""
