@@ -1,4 +1,16 @@
 - commits:
+    - subject: Renovate renovate
+      hash: b4ed8bb09a481b470e3e2b49e9617d430aef200e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.0.94
+  title: ""
+  date: 2022-12-30T17:37:09.981Z
+- commits:
     - subject: Remove product-os/jellyfish-plugin-flowdock
       hash: 7d5879448c4f06bd64622882db1addc3455bf34e
       body: ""
