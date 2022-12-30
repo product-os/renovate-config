@@ -64,6 +64,7 @@
     "product-os/jellyfish-plugin-outreach",
     "product-os/jellyfish-plugin-typeform",
     "product-os/jellyfish-worker",
+    "product-os/renovate-config",
     "product-os/resinci-deploy",
     "product-os/versionbot"
   ],
