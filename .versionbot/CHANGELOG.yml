@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update renovatebot/github-action action to 34.76.1
+      hash: 0471bda2322ee4d0e30533905436cca89e8577f3
+      body: |
+        Update renovatebot/github-action to 34.76.1
+
+        Update renovatebot/github-action from 34.55.0 to 34.76.1
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 1.2.0
+  title: ""
+  date: 2022-12-30T19:28:58.720Z
+- commits:
     - subject: Pin dependencies
       hash: 7e458d8e352c59253d1a90c9a2c3847f63dd73fc
       body: |
