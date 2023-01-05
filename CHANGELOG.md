@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.7.0 - 2023-01-05
+
+* Update actions/checkout digest to ac59398 [Renovate Bot]
+
 ## 1.6.0 - 2023-01-05
 
 * Update renovatebot/github-action action to 34.83.1 [Renovate Bot]
