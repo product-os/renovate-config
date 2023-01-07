@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update renovatebot/github-action action to 34.87.0
+      hash: 499de21099a4649517954031f743da56beffba26
+      body: |
+        Update renovatebot/github-action to 34.87.0
+
+        Update renovatebot/github-action from 34.83.1 to 34.87.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 1.8.0
+  title: ""
+  date: 2023-01-07T00:26:08.830Z
+- commits:
     - subject: Update actions/checkout digest to ac59398
       hash: 32e703ea96e971d9ee7a00e276828bd9cf9ff495
       body: |
