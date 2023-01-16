@@ -73,7 +73,8 @@
       "automerge": true,
       "matchUpdateTypes": [
         "minor",
-        "patch"
+        "patch",
+        "digest"
       ]
     },
     {
