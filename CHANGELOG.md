@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.12.1 - 2023-01-16
+
+* Enable automerge for digests [Anton Belodedenko]
+
 ## 1.12.0 - 2023-01-16
 
 * Update renovatebot/github-action action to 34.102.8 [Renovate Bot]
