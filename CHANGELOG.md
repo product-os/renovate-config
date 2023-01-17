@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.13.0 - 2023-01-17
+
+* Enable automerge+policy-bot [Anton Belodedenko]
+
 ## 1.12.1 - 2023-01-16
 
 * Enable automerge for digests [Anton Belodedenko]

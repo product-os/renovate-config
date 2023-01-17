@@ -1,4 +1,17 @@
 - commits:
+    - subject: Enable automerge+policy-bot
+      hash: 2ab5ebeaca00dad6603fca11ab238908ded50c10
+      body: |
+        Simplifies renovate config in tandem with product-os/policies#13
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Anton Belodedenko
+      nested: []
+  version: 1.13.0
+  title: ""
+  date: 2023-01-17T16:12:10.913Z
+- commits:
     - subject: Enable automerge for digests
       hash: fb8f481b4937b75f8c1afec75f50491e5328cfd9
       body: ""
