@@ -8,7 +8,7 @@
   "printConfig": true,
   "prHourlyLimit": 0,
   "onboarding": false,
-  "requireConfig": false,
+  "requireConfig": "optional",
   "cloneSubmodules": true,
   "rebaseWhen": "behind-base-branch",
   "allowPostUpgradeCommandTemplating": true,
