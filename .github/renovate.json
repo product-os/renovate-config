@@ -20,7 +20,9 @@
   },
   "labels": [
     "renovate",
-    "dependencies"
+    "dependencies",
+    "{{updateType}}",
+    "{{depType}}"
   ],
   "commitMessageExtra": "to {{{replace 'v' '' newVersion}}}",
   "commitBody": "Update {{depName}} to {{{replace 'v' '' newVersion}}}\n\nUpdate {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{#if (or isPatch (containsString depType 'devDependencies'))}}patch{{else}}minor{{/if}}",
