@@ -1,4 +1,16 @@
 - commits:
+    - subject: Additional renovate PR labels
+      hash: c3181dde466afca7614a2d0914d633552a192f86
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.15.4
+  title: ""
+  date: 2023-01-19T18:39:41.489Z
+- commits:
     - subject: Don't auto-merge unless specified
       hash: ef5277c717fd0adeac01a6b9211711e76b53142c
       body: ""

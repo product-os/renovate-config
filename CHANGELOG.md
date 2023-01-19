@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.15.4 - 2023-01-19
+
+* Additional renovate PR labels [Anton Belodedenko]
+
 ## 1.15.3 - 2023-01-19
 
 * Don't auto-merge unless specified [Anton Belodedenko]
