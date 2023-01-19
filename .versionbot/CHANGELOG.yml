@@ -1,4 +1,16 @@
 - commits:
+    - subject: Don't auto-merge unless specified
+      hash: ef5277c717fd0adeac01a6b9211711e76b53142c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.15.3
+  title: ""
+  date: 2023-01-19T18:22:18.567Z
+- commits:
     - subject: Update renovatebot/github-action action to 34.105.6
       hash: c8744443b1c43a40916d98cf66c83fd171180f50
       body: |
