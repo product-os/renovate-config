@@ -1,4 +1,16 @@
 - commits:
+    - subject: requireConfig optional
+      hash: 9e25d598ae16aff56e682991a0a2a3d7b7a8ea53
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.18.1
+  title: ""
+  date: 2023-01-23T18:59:36.848Z
+- commits:
     - subject: Update renovatebot/github-action action to 34.109.1
       hash: d2ff7a5d50f65e3ab97799dc143cc5d9cd6e71fc
       body: |
