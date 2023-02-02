@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.18.2 - 2023-02-02
+
+* Disable platformAutomerge [Anton Belodedenko]
+
 ## 1.18.1 - 2023-01-23
 
 * requireConfig optional [Anton Belodedenko]

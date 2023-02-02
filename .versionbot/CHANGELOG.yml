@@ -1,4 +1,16 @@
 - commits:
+    - subject: Disable platformAutomerge
+      hash: d8533a100517898938524017d164dc0ee6ed76b5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.18.2
+  title: ""
+  date: 2023-02-02T20:11:15.250Z
+- commits:
     - subject: requireConfig optional
       hash: 9e25d598ae16aff56e682991a0a2a3d7b7a8ea53
       body: ""
