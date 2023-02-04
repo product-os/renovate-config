@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update renovatebot/github-action action to 34.122.0
+      hash: d58f6578574ba5dc47b46616493e6da368f5afd2
+      body: |
+        Update renovatebot/github-action to 34.122.0
+
+        Update renovatebot/github-action from 34.109.1 to 34.122.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 1.19.0
+  title: ""
+  date: 2023-02-04T04:53:47.152Z
+- commits:
     - subject: Disable platformAutomerge
       hash: d8533a100517898938524017d164dc0ee6ed76b5
       body: ""

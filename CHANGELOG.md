@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.19.0 - 2023-02-04
+
+* Update renovatebot/github-action action to 34.122.0 [Renovate Bot]
+
 ## 1.18.2 - 2023-02-02
 
 * Disable platformAutomerge [Anton Belodedenko]
