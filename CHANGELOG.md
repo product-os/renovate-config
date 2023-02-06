@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.20.3 - 2023-02-06
+
+* depType conditional on newMajor version [Anton Belodedenko]
+
 ## 1.20.2 - 2023-02-06
 
 * Update renovatebot/github-action action to 34.124.5 [Renovate Bot]

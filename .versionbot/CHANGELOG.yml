@@ -1,4 +1,16 @@
 - commits:
+    - subject: depType conditional on newMajor version
+      hash: 15f062b5bc5895155e965507796216e5d5c5fb5f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.20.3
+  title: ""
+  date: 2023-02-06T18:40:49.109Z
+- commits:
     - subject: Update renovatebot/github-action action to 34.124.5
       hash: b42877c614bde0f6ad5291468a654275eedb2b54
       body: |
