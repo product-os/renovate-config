@@ -24,8 +24,7 @@
     "{{updateType}}",
     "{{#if (and (not(isPatch)) (containsString prettyNewMajor 'v0'))}}major{{else}}{{depType}}{{/if}}"
   ],
-  "commitMessageExtra": "to {{{replace 'v' '' newVersion}}}",
-  "commitBody": "Update {{depName}} to {{{replace 'v' '' newVersion}}}\n\nUpdate {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{#if (or isPatch (containsString depType 'devDependencies'))}}patch{{else}}minor{{/if}}",
+  "commitBody": "{{#if (containsString depType 'digest')}}Update {{depName}}{{else}}Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}{{/if}}\n\nChange-type: {{#if (or isPatch (containsString depType 'devDependencies') (containsString depType 'digest'))}}patch{{else}}minor{{/if}}",
   "prConcurrentLimit": 2,
   "branchConcurrentLimit": 2,
   "ignorePaths": [
