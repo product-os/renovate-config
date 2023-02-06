@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix commit message for digests
+      hash: b65a38038a3d378e58de3f997ec857ff45764091
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.20.4
+  title: ""
+  date: 2023-02-06T20:20:23.711Z
+- commits:
     - subject: depType conditional on newMajor version
       hash: 15f062b5bc5895155e965507796216e5d5c5fb5f
       body: ""
