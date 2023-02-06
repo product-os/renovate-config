@@ -22,7 +22,7 @@
     "renovate",
     "dependencies",
     "{{updateType}}",
-    "{{#if (containsString prettyNewMajor 'v0.'))}}major{{else}}{{depType}}{{/if}}"
+    "{{#if (and (not(isPatch)) (containsString prettyNewMajor 'v0.'))}}major{{else}}{{depType}}{{/if}}"
   ],
   "commitMessageExtra": "to {{{replace 'v' '' newVersion}}}",
   "commitBody": "Update {{depName}} to {{{replace 'v' '' newVersion}}}\n\nUpdate {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{#if (or isPatch (containsString depType 'devDependencies'))}}patch{{else}}minor{{/if}}",
