@@ -1,4 +1,16 @@
 - commits:
+    - subject: Correct handlebars logic
+      hash: 699b2b86d3da6aab71febf100890a9ea0fcf75fc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.20.6
+  title: ""
+  date: 2023-02-07T17:34:48.019Z
+- commits:
     - subject: Remove Jellyfish repos
       hash: 7edca09e50ad6a70846112b6f61afbaf52367ddb
       body: ""
