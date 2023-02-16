@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v34.141.0
+      hash: 6e0cce06946e924fef7dccc05779367b4e788492
+      body: |
+        Update renovatebot/github-action from 34.138.3 to 34.141.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 1.28.0
+  title: ""
+  date: 2023-02-16T11:46:27.606Z
+- commits:
     - subject: Update renovatebot/github-action action to v34.138.3
       hash: aea288a4226d9db2ec72634d455483a824f2b543
       body: |
