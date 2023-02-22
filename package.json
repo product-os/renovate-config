@@ -8,7 +8,7 @@
   },
   "description": "Shared base Renovate configuration",
   "scripts": {
-    "test": "renovate-config-validator ./.github/renovate.json"
+    "test": "renovate-config-validator ./default.json"
   },
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",

@@ -1,35 +1,9 @@
 {
-  "extends": [
-    ":preserveSemverRanges",
-    "config:base",
-    "docker:enableMajor",
-    "helpers:pinGitHubActionDigests"
-  ],
-  "printConfig": true,
-  "prHourlyLimit": 0,
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "onboarding": false,
   "requireConfig": "optional",
-  "cloneSubmodules": true,
-  "rebaseWhen": "behind-base-branch",
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": ["^npm"],
-  "git-submodules": {
-    "enabled": true
-  },
-  "labels": ["renovate", "dependencies", "{{depType}}", "{{updateType}}"],
-  "prConcurrentLimit": 2,
-  "branchConcurrentLimit": 2,
-  "ignorePaths": [
-    "**/node_modules/**",
-    "**/bower_components/**",
-    "**/vendor/**",
-    "**/examples/**",
-    "**/__tests__/**",
-    "**/test/**",
-    "**/tests/suites/**",
-    "**/__fixtures__/**",
-    "**/Dockerfile.template"
-  ],
   "repositories": [
     "product-os/autumndb",
     "product-os/balena-cloudwatch-exporter",
@@ -41,112 +15,8 @@
     "product-os/flowzone",
     "product-os/hubot",
     "product-os/renovate-config",
-    "product-os/self-hosted-runners"
-  ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major", "minor", "patch"],
-      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{updateType}}",
-      "labels": ["renovate", "dependencies", "{{depType}}", "{{updateType}}"],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "automerge": false
-    },
-    {
-      "matchUpdateTypes": ["minor"],
-      "matchCurrentVersion": "<1.0.0",
-      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: major",
-      "labels": ["renovate", "dependencies", "{{depType}}", "major"],
-      "automerge": false
-    },
-    {
-      "matchUpdateTypes": ["patch"],
-      "matchCurrentVersion": "<1.0.0",
-      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: minor",
-      "labels": ["renovate", "dependencies", "{{depType}}", "minor"]
-    },
-    {
-      "matchUpdateTypes": ["digest"],
-      "commitBody": "Update {{depName}}\n\nChange-type: patch",
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["pin", "pinDigest"],
-      "commitBody": "Pin {{depName}}\n\nChange-type: patch",
-      "automerge": true
-    },
-    {
-      "matchPackagePatterns": [".*product-os/self-hosted-runners$"],
-      "matchDatasources": ["docker"],
-      "versioning": "regex:^(.*-)?v?(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$"
-    }
-  ],
-  "regexManagers": [
-    {
-      "fileMatch": ["(^|\\/).*\\.tf$"],
-      "matchStrings": ["gh_runner_image_tag[= ]\"(?<currentValue>.*?)\"\\n"],
-      "depNameTemplate": "product-os/self-hosted-runners",
-      "datasourceTemplate": "github-tags",
-      "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
-      "fileMatch": ["(^|\\/).*\\.tf$"],
-      "matchStrings": [
-        "balena_engine_version[= ]\"v?(?<currentValue>.*?)\"\\n"
-      ],
-      "depNameTemplate": "balena-os/balena-engine",
-      "datasourceTemplate": "github-releases",
-      "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
-      "fileMatch": ["(^|\\/)Dockerfile(\\.[:alnum:]+)?$"],
-      "matchStrings": [
-        "ENV PROMETHEUS_VERSION[= ]v?(?<currentValue>.*?)\\n",
-        "ARG PROMETHEUS_VERSION[= ]v?(?<currentValue>.*?)\\n"
-      ],
-      "depNameTemplate": "prometheus/prometheus",
-      "datasourceTemplate": "github-releases",
-      "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
-      "fileMatch": ["(^|\\/)Dockerfile(\\.[:alnum:]+)?$"],
-      "matchStrings": [
-        "ENV GRAFANA_VERSION[= ]v?(?<currentValue>.*?)\\n",
-        "ARG GRAFANA_VERSION[= ]v?(?<currentValue>.*?)\\n"
-      ],
-      "depNameTemplate": "grafana/grafana",
-      "datasourceTemplate": "github-releases",
-      "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
-      "fileMatch": ["(^|\\/)Dockerfile(\\.[:alnum:]+)?$"],
-      "matchStrings": [
-        "ENV NODE_VERSION[= ](?<currentValue>.*?)\\n",
-        "ARG NODE_VERSION[= ](?<currentValue>.*?)\\n"
-      ],
-      "depNameTemplate": "node",
-      "datasourceTemplate": "node"
-    },
-    {
-      "fileMatch": ["(^|\\/)Dockerfile(\\.[[:alnum:]]+)?$"],
-      "matchStrings": [
-        "ENV NPM_VERSION[= ](?<currentValue>.*?)\\n",
-        "ARG NPM_VERSION[= ](?<currentValue>.*?)\\n"
-      ],
-      "depNameTemplate": "npm",
-      "datasourceTemplate": "npm"
-    },
-    {
-      "fileMatch": [
-        "(^|\\/)(?:docker-)?compose[^/]*\\.ya?ml$",
-        "(^|\\/)Dockerfile(\\.[[:alnum:]]+)?$"
-      ],
-      "matchStrings": [
-        "(FROM|image:)\\s*(?<depName>.*)(\\/|:)(?<currentValue>.*)\\n"
-      ],
-      "datasourceTemplate": "docker"
-    }
+    "product-os/self-hosted-runners",
+    "product-os/resinci-deploy",
+    "product-os/versionbot"
   ]
 }
