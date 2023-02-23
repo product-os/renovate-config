@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v34.152.2
+      hash: 7863205bd97565f44184bc8e3881f554ce0a6ed5
+      body: |
+        Update renovatebot/github-action from 34.152.0 to 34.152.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.32.2
+  title: ""
+  date: 2023-02-23T20:42:16.652Z
+- commits:
     - subject: "Try automergeType: pr-comment to delay"
       hash: 60b57cf1937e99d9a76ef5230843ff9860071f38
       body: ""
