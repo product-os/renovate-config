@@ -86,7 +86,7 @@
         "(^|\\/).*\\.tf$"
       ],
       "matchStrings": [
-        "GH_RUNNER_IMAGE_TAG[= ]\"(?<currentValue>.*?)\"\\n"
+        "gh_runner_image_tag[= ]\"(?<currentValue>.*?)\"\\n"
       ],
       "depNameTemplate": "product-os/self-hosted-runners",
       "datasourceTemplate": "github-tags",
@@ -97,7 +97,7 @@
         "(^|\\/).*\\.tf$"
       ],
       "matchStrings": [
-        "BALENA_ENGINE_VERSION[= ]\"v?(?<currentValue>.*?)\"\\n"
+        "balena_engine_version[= ]\"v?(?<currentValue>.*?)\"\\n"
       ],
       "depNameTemplate": "balena-os/balena-engine",
       "datasourceTemplate": "github-releases",
