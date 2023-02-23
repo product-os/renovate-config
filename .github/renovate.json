@@ -9,6 +9,8 @@
   "prHourlyLimit": 0,
   "onboarding": false,
   "requireConfig": "optional",
+  "automergeType": "pr-comment",
+  "automergeComment": "LGTM",
   "cloneSubmodules": true,
   "rebaseWhen": "behind-base-branch",
   "allowPostUpgradeCommandTemplating": true,
