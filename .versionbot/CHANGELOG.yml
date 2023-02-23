@@ -1,4 +1,16 @@
 - commits:
+    - subject: "Try automergeType: pr-comment to delay"
+      hash: 60b57cf1937e99d9a76ef5230843ff9860071f38
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.32.1
+  title: ""
+  date: 2023-02-23T19:22:44.333Z
+- commits:
     - subject: Update renovatebot/github-action action to v34.152.0
       hash: 34faf16ae86c65af1212c79ae0d90ae47d55f4cc
       body: |

@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.32.1 - 2023-02-23
+
+* Try automergeType: pr-comment to delay [Anton Belodedenko]
+
 ## 1.32.0 - 2023-02-23
 
 * Update renovatebot/github-action action to v34.152.0 [Renovate Bot]
