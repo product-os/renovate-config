@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add regexManagers
+      hash: c051b48bdfb3d546fd60f32426328b372a3babe2
+      body: |
+        * balena-os/balena-engine (github-release)
+        * product-os/self-hosted-runners (github-tag => package)
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: ab77
+      nested: []
+  version: 1.32.3
+  title: ""
+  date: 2023-02-23T22:31:08.567Z
+- commits:
     - subject: Update renovatebot/github-action action to v34.152.2
       hash: 7863205bd97565f44184bc8e3881f554ce0a6ed5
       body: |
