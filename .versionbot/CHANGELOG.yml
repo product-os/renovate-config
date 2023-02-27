@@ -1,4 +1,16 @@
 - commits:
+    - subject: Revert  automergeType
+      hash: ea7e678148b06345e233bf80fb59228640259f95
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.32.4
+  title: ""
+  date: 2023-02-27T16:11:13.460Z
+- commits:
     - subject: Add regexManagers
       hash: c051b48bdfb3d546fd60f32426328b372a3babe2
       body: |

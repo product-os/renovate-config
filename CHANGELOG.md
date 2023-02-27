@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.32.4 - 2023-02-27
+
+* Revert  automergeType [Anton Belodedenko]
+
 ## 1.32.3 - 2023-02-23
 
 * Add regexManagers [ab77]
