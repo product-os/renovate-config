@@ -76,6 +76,15 @@
         "patch",
         "digest"
       ]
+    },
+    {
+      "matchPackagePatterns": [
+        ".*product-os\/self-hosted-runners$"
+      ],
+      "matchDatasources": [
+        "docker"
+      ],
+      "versioning": "regex:^(.*-)?v?(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$"
     }
   ],
   "regexManagers": [
@@ -153,8 +162,7 @@
         "(^|\\/)Dockerfile(\\.[[:alnum:]]+)?$"
       ],
       "matchStrings": [
-        "image: (?<depName>.*[^\\/])\\/(?<currentValue>.*?)\\n",
-        "FROM (?<depName>.*[^\\/])\\/(?<currentValue>.*?)\\n"
+        "(FROM|image:)\\s*(?<depName>.*)(\\/|:)(?<currentValue>.*)\\n"
       ],
       "datasourceTemplate": "docker"
     }
