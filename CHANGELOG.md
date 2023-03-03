@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.34.3 - 2023-03-03
+
+* Update renovatebot/github-action action to v34.154.4 [Renovate Bot]
+
 ## 1.34.2 - 2023-03-01
 
 * Update renovatebot/github-action action to v34.154.2 [Renovate Bot]
