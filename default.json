@@ -83,7 +83,7 @@
     {
       "matchPackagePatterns": [".*product-os/self-hosted-runners$"],
       "matchDatasources": ["docker"],
-      "versioning": "regex:^(.*-)?v?(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$"
+      "versioning": "regex:^((?<compatibility>.*)-)?v?(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?$"
     }
   ],
   "regexManagers": [
