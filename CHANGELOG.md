@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 1.36.0 - 2023-03-07
+
+* Update renovatebot/github-action action to v34.158.1 [Renovate Bot]
+
 ## 1.35.2 - 2023-03-07
 
 * More Docker registries to source updates [Anton Belodedenko]

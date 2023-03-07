@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v34.158.1
+      hash: a33f35f12338cb9f127a8196ffa14edb579e5815
+      body: |
+        Update renovatebot/github-action from 34.157.1 to 34.158.1
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 1.36.0
+  title: ""
+  date: 2023-03-07T16:51:35.392Z
+- commits:
     - subject: More Docker registries to source updates
       hash: 6b61e8b4787f3c531207de10e0b201b06483a447
       body: ""
