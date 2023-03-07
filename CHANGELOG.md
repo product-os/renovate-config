@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 2.0.0 - 2023-03-07
+
+* Replace long handlebar functions with package rules [Kyle Harding]
+
 ## 1.36.0 - 2023-03-07
 
 * Update renovatebot/github-action action to v34.158.1 [Renovate Bot]

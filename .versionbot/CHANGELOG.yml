@@ -1,4 +1,20 @@
 - commits:
+    - subject: Replace long handlebar functions with package rules
+      hash: 019f7326a527fbccf3e6918d9f0612a98b76508c
+      body: |
+        Package rules are read in order so we can override previous
+        values and avoid extended handlebar rules that are prone to errors.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 2.0.0
+  title: ""
+  date: 2023-03-07T17:17:40.655Z
+- commits:
     - subject: Update renovatebot/github-action action to v34.158.1
       hash: a33f35f12338cb9f127a8196ffa14edb579e5815
       body: |
