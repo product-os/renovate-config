@@ -25,7 +25,21 @@ jobs:
         with:
           # https://docs.renovatebot.com/configuration-options
           configurationFile: .github/renovate.json
+          # FIXME: switch to ephemeral token
           token: ${{ secrets.FLOWZONE_TOKEN }}
         env:
           RENOVATE_DRY_RUN: ${{ env.RENOVATE_DRY_RUN }}
-          RENOVATE_HOST_RULES: '[{"hostType":"docker","username":"${{ env.DOCKERHUB_USER }}","password":"${{ secrets.DOCKERHUB_TOKEN }}"}]'
+          RENOVATE_HOST_RULES: |
+            [
+              {
+                "hostType": "docker",
+                "username": "${{ secrets.DOCKERHUB_USER }}",
+                "password": "${{ secrets.DOCKERHUB_TOKEN }}"
+              },
+              {
+                "hostType": "docker",
+                "matchHost": "ghcr.io",
+                "username": "${{ github.actor }}",
+                "password": "${{ secrets.GITHUB_TOKEN }}"
+              }
+            ]
