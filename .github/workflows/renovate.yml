@@ -12,7 +12,7 @@ env:
 
 jobs:
   renovate:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
 
@@ -23,7 +23,7 @@ jobs:
       # https://github.com/renovatebot
       - uses: renovatebot/github-action@ad3ae4e97e32474b0fa613a7423f5e1d4c1c345e # v34.158.1
         with:
-          # https://docs.renovatebot.com/configuration-options
+          # https://docs.renovatebot.com/self-hosted-configuration
           configurationFile: .github/renovate.json
           # FIXME: switch to ephemeral token
           token: ${{ secrets.FLOWZONE_TOKEN }}
