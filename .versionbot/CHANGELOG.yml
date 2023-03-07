@@ -1,4 +1,20 @@
 - commits:
+    - subject: Split repo to act as organization level preset
+      hash: a56b9227e1d8f9b272717278fe3176d571206d07
+      body: |
+        Repos within this org will inherit this config by default.
+        https://docs.renovatebot.com/config-presets/#organization-level-presets
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 3.0.0
+  title: ""
+  date: 2023-03-07T17:53:43.814Z
+- commits:
     - subject: Replace long handlebar functions with package rules
       hash: 019f7326a527fbccf3e6918d9f0612a98b76508c
       body: |

@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 3.0.0 - 2023-03-07
+
+* Split repo to act as organization level preset [Kyle Harding]
+
 ## 2.0.0 - 2023-03-07
 
 * Replace long handlebar functions with package rules [Kyle Harding]
