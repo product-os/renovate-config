@@ -1,4 +1,16 @@
 - commits:
+    - subject: More Docker registries to source updates
+      hash: 6b61e8b4787f3c531207de10e0b201b06483a447
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 1.35.2
+  title: ""
+  date: 2023-03-07T15:40:03.115Z
+- commits:
     - subject: Update renovatebot/github-action action to v34.157.1
       hash: 1d9ca2fe97a73c09ef9eeec98aa43e6e51c97982
       body: |
