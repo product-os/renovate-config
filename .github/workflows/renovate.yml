@@ -21,7 +21,7 @@ jobs:
         if: github.event_name == 'pull_request'
 
       # https://github.com/renovatebot
-      - uses: renovatebot/github-action@53bd6fe922a2555afc79e4f82d626e49b0a0f6b1 # v34.157.1
+      - uses: renovatebot/github-action@ad3ae4e97e32474b0fa613a7423f5e1d4c1c345e # v34.158.1
         with:
           # https://docs.renovatebot.com/configuration-options
           configurationFile: .github/renovate.json
