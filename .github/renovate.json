@@ -12,19 +12,11 @@
   "cloneSubmodules": true,
   "rebaseWhen": "behind-base-branch",
   "allowPostUpgradeCommandTemplating": true,
-  "allowedPostUpgradeCommands": [
-    "^npm"
-  ],
+  "allowedPostUpgradeCommands": ["^npm"],
   "git-submodules": {
     "enabled": true
   },
-  "labels": [
-    "renovate",
-    "dependencies",
-    "{{updateType}}",
-    "{{#if (and (containsString updateType 'patch') (containsString prettyNewMajor 'v0'))}}major{{else}}{{depType}}{{/if}}"
-  ],
-  "commitBody": "{{#if (containsString depType 'digest')}}Update {{depName}}{{else}}Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}{{/if}}\n\nChange-type: {{#if (or isPatch (containsString depType 'devDependencies') (containsString depType 'digest'))}}patch{{else}}minor{{/if}}",
+  "labels": ["renovate", "dependencies", "{{depType}}", "{{updateType}}"],
   "prConcurrentLimit": 2,
   "branchConcurrentLimit": 2,
   "ignorePaths": [
@@ -53,56 +45,54 @@
   ],
   "packageRules": [
     {
-      "automerge": true,
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest"
-      ]
-    },
-    {
-      "matchDepTypes": [
-        "devDependencies"
-      ],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{updateType}}",
+      "labels": ["renovate", "dependencies", "{{depType}}", "{{updateType}}"],
       "automerge": true
     },
     {
-      "matchManagers": [
-        "git-submodules"
-      ],
-      "automerge": true,
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest"
-      ]
+      "matchUpdateTypes": ["major"],
+      "automerge": false
     },
     {
-      "matchPackagePatterns": [
-        ".*product-os\/self-hosted-runners$"
-      ],
-      "matchDatasources": [
-        "docker"
-      ],
+      "matchUpdateTypes": ["minor"],
+      "matchCurrentVersion": "<1.0.0",
+      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: major",
+      "labels": ["renovate", "dependencies", "{{depType}}", "major"],
+      "automerge": false
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "matchCurrentVersion": "<1.0.0",
+      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: minor",
+      "labels": ["renovate", "dependencies", "{{depType}}", "minor"]
+    },
+    {
+      "matchUpdateTypes": ["digest"],
+      "commitBody": "Update {{depName}}\n\nChange-type: patch",
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["pin", "pinDigest"],
+      "commitBody": "Pin {{depName}}\n\nChange-type: patch",
+      "automerge": true
+    },
+    {
+      "matchPackagePatterns": [".*product-os/self-hosted-runners$"],
+      "matchDatasources": ["docker"],
       "versioning": "regex:^(.*-)?v?(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$"
     }
   ],
   "regexManagers": [
     {
-      "fileMatch": [
-        "(^|\\/).*\\.tf$"
-      ],
-      "matchStrings": [
-        "gh_runner_image_tag[= ]\"(?<currentValue>.*?)\"\\n"
-      ],
+      "fileMatch": ["(^|\\/).*\\.tf$"],
+      "matchStrings": ["gh_runner_image_tag[= ]\"(?<currentValue>.*?)\"\\n"],
       "depNameTemplate": "product-os/self-hosted-runners",
       "datasourceTemplate": "github-tags",
       "extractVersionTemplate": "^v(?<version>.*)$"
     },
     {
-      "fileMatch": [
-        "(^|\\/).*\\.tf$"
-      ],
+      "fileMatch": ["(^|\\/).*\\.tf$"],
       "matchStrings": [
         "balena_engine_version[= ]\"v?(?<currentValue>.*?)\"\\n"
       ],
@@ -111,9 +101,7 @@
       "extractVersionTemplate": "^v(?<version>.*)$"
     },
     {
-      "fileMatch": [
-        "(^|\\/)Dockerfile(\\.[:alnum:]+)?$"
-      ],
+      "fileMatch": ["(^|\\/)Dockerfile(\\.[:alnum:]+)?$"],
       "matchStrings": [
         "ENV PROMETHEUS_VERSION[= ]v?(?<currentValue>.*?)\\n",
         "ARG PROMETHEUS_VERSION[= ]v?(?<currentValue>.*?)\\n"
@@ -123,9 +111,7 @@
       "extractVersionTemplate": "^v(?<version>.*)$"
     },
     {
-      "fileMatch": [
-        "(^|\\/)Dockerfile(\\.[:alnum:]+)?$"
-      ],
+      "fileMatch": ["(^|\\/)Dockerfile(\\.[:alnum:]+)?$"],
       "matchStrings": [
         "ENV GRAFANA_VERSION[= ]v?(?<currentValue>.*?)\\n",
         "ARG GRAFANA_VERSION[= ]v?(?<currentValue>.*?)\\n"
@@ -135,9 +121,7 @@
       "extractVersionTemplate": "^v(?<version>.*)$"
     },
     {
-      "fileMatch": [
-        "(^|\\/)Dockerfile(\\.[:alnum:]+)?$"
-      ],
+      "fileMatch": ["(^|\\/)Dockerfile(\\.[:alnum:]+)?$"],
       "matchStrings": [
         "ENV NODE_VERSION[= ](?<currentValue>.*?)\\n",
         "ARG NODE_VERSION[= ](?<currentValue>.*?)\\n"
@@ -146,9 +130,7 @@
       "datasourceTemplate": "node"
     },
     {
-      "fileMatch": [
-        "(^|\\/)Dockerfile(\\.[[:alnum:]]+)?$"
-      ],
+      "fileMatch": ["(^|\\/)Dockerfile(\\.[[:alnum:]]+)?$"],
       "matchStrings": [
         "ENV NPM_VERSION[= ](?<currentValue>.*?)\\n",
         "ARG NPM_VERSION[= ](?<currentValue>.*?)\\n"
