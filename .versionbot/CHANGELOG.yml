@@ -1,4 +1,20 @@
 - commits:
+    - subject: Self-hosted config should inherit org defaults
+      hash: c8b7e1e617ba3f941ad764bb5ccda3ab31df4fde
+      body: |
+        Without onboarding we actually need to provide the
+        org defaults directly in the self-hosted configuration.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 3.0.1
+  title: ""
+  date: 2023-03-07T19:37:08.990Z
+- commits:
     - subject: Split repo to act as organization level preset
       hash: a56b9227e1d8f9b272717278fe3176d571206d07
       body: |
