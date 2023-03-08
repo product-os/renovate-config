@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v34.158.2
+      hash: 24d2763124e67d7b599b61512fe0b70f5046fc88
+      body: |
+        Update renovatebot/github-action from 34.158.1 to 34.158.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.2
+  title: ""
+  date: 2023-03-08T01:08:11.833Z
+- commits:
     - subject: Self-hosted config should inherit org defaults
       hash: c8b7e1e617ba3f941ad764bb5ccda3ab31df4fde
       body: |
