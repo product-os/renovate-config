@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v34.159.1
+      hash: 52eee50b48ca2dee30d0c7ce51ff6144c03ffe04
+      body: |
+        Update renovatebot/github-action from 34.158.2 to 34.159.1
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 3.1.0
+  title: ""
+  date: 2023-03-08T20:46:51.679Z
+- commits:
     - subject: Merge self-hosted and repo configurations
       hash: dbff89853939a38d648e585c64f517835eb3777d
       body: |
