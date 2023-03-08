@@ -24,7 +24,7 @@ jobs:
       - uses: renovatebot/github-action@be5f2172cb562ed27e7cde06f3543e3eb92cffc0 # v34.158.2
         with:
           # https://docs.renovatebot.com/self-hosted-configuration
-          configurationFile: .github/renovate.json
+          configurationFile: default.json
           # FIXME: switch to ephemeral token
           token: ${{ secrets.FLOWZONE_TOKEN }}
         env:
