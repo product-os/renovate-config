@@ -1,4 +1,16 @@
 - commits:
+    - subject: Move compatibility placeholder
+      hash: 367e1f70e37a27127c605c3957fcf08294560814
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 3.1.1
+  title: ""
+  date: 2023-03-09T16:39:13.816Z
+- commits:
     - subject: Update renovatebot/github-action action to v34.159.1
       hash: 52eee50b48ca2dee30d0c7ce51ff6144c03ffe04
       body: |
