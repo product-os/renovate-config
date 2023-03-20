@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency renovate to v35
+      hash: d7a6c017fded02409f77b23f0a0e254fcea6c5a0
+      body: |
+        Update renovate from 34.160.0 to 35.14.2
+      footer:
+        Change-type: major
+        change-type: major
+      author: Renovate Bot
+      nested: []
+  version: 5.0.0
+  title: ""
+  date: 2023-03-20T16:45:40.988Z
+- commits:
     - subject: Update renovatebot/github-action action to v36
       hash: 38e7c18e2b84655498c610d70324ac72f5e7b32f
       body: |
