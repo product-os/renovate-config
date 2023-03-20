@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update actions/checkout digest to 24cb908
+      hash: e47814fba47343635435ae0913cb98707b5d45e3
+      body: |
+        Update actions/checkout
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.1
+  title: ""
+  date: 2023-03-20T17:48:57.507Z
+- commits:
     - subject: Update dependency renovate to v35
       hash: d7a6c017fded02409f77b23f0a0e254fcea6c5a0
       body: |
