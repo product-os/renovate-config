@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 5.0.2 - 2023-03-24
+
+* Update actions/checkout digest to 8f4b7f8 [Renovate Bot]
+
 ## 5.0.1 - 2023-03-20
 
 * Update actions/checkout digest to 24cb908 [Renovate Bot]
