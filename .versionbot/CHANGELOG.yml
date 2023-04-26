@@ -1,4 +1,18 @@
 - commits:
+    - subject: Remove custom versioning for self-hosted runners
+      hash: 01ee3a0cd85e042444c4d9f48db48a1786788a0a
+      body: >
+        As of v1.2.8 the self-hosted runner docker tags are following the
+        expected semver-compatibility syntax.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 5.0.7
+  title: ""
+  date: 2023-04-26T01:50:19.264Z
+- commits:
     - subject: Update renovatebot/github-action action to v36.0.3
       hash: 000e5fe0ed598a0c467915f13c60353350e590b8
       body: |

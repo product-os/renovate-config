@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 5.0.7 - 2023-04-26
+
+* Remove custom versioning for self-hosted runners [Kyle Harding]
+
 ## 5.0.6 - 2023-04-22
 
 * Update renovatebot/github-action action to v36.0.3 [Renovate Bot]
