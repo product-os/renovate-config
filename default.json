@@ -46,23 +46,21 @@
     "**/__fixtures__/**",
     "**/Dockerfile.template"
   ],
+  "automerge": false,
   "packageRules": [
     {
       "matchUpdateTypes": ["major", "minor", "patch"],
       "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{updateType}}",
-      "labels": ["renovate", "dependencies", "{{depType}}", "{{updateType}}"],
-      "automerge": true
+      "labels": ["renovate", "dependencies", "{{depType}}", "{{updateType}}"]
     },
     {
-      "matchUpdateTypes": ["major"],
-      "automerge": false
+      "matchUpdateTypes": ["major"]
     },
     {
       "matchUpdateTypes": ["minor"],
       "matchCurrentVersion": "<1.0.0",
       "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: major",
-      "labels": ["renovate", "dependencies", "{{depType}}", "major"],
-      "automerge": false
+      "labels": ["renovate", "dependencies", "{{depType}}", "major"]
     },
     {
       "matchUpdateTypes": ["patch"],
@@ -72,13 +70,11 @@
     },
     {
       "matchUpdateTypes": ["digest"],
-      "commitBody": "Update {{depName}}\n\nChange-type: patch",
-      "automerge": true
+      "commitBody": "Update {{depName}}\n\nChange-type: patch"
     },
     {
       "matchUpdateTypes": ["pin", "pinDigest"],
-      "commitBody": "Pin {{depName}}\n\nChange-type: patch",
-      "automerge": true
+      "commitBody": "Pin {{depName}}\n\nChange-type: patch"
     }
   ],
   "regexManagers": [
