@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 5.0.8 - 2023-04-27
+
+* Set node engine to the required v18 [Kyle Harding]
+
 ## 5.0.7 - 2023-04-26
 
 * Remove custom versioning for self-hosted runners [Kyle Harding]
