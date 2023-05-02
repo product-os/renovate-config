@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 5.1.1 - 2023-05-02
+
+* Update renovatebot/github-action action to v36.0.4 [Renovate Bot]
+
 ## 5.1.0 - 2023-04-27
 
 * Disable automerge for all update types [Kyle Harding]

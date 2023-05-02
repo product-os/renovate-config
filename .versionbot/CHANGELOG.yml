@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v36.0.4
+      hash: 2af29370a05374946b2dda8f2450e7833fb538d8
+      body: |
+        Update renovatebot/github-action from 36.0.3 to 36.0.4
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.1.1
+  title: ""
+  date: 2023-05-02T10:52:37.796Z
+- commits:
     - subject: Disable automerge for all update types
       hash: 35ef021322f80c030aa0825819fcb3e8138884f0
       body: |
