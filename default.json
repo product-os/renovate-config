@@ -14,6 +14,7 @@
     "product-os/autumndb",
     "product-os/balena-cloudwatch-exporter",
     "product-os/balena-jenkins",
+    "product-os/balena-metrics-guard-base",
     "product-os/balena-redis-exporter",
     "product-os/balena-versionist",
     "product-os/environment-production",
@@ -22,7 +23,6 @@
     "product-os/hubot",
     "product-os/renovate-config",
     "product-os/self-hosted-runners",
-    "product-os/resinci-deploy",
     "product-os/versionbot"
   ],
   "printConfig": true,
