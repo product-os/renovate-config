@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 5.1.2 - 2023-05-02
+
+* renamed repositories [Anton Belodedenko]
+
 ## 5.1.1 - 2023-05-02
 
 * Update renovatebot/github-action action to v36.0.4 [Renovate Bot]

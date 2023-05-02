@@ -1,4 +1,15 @@
 - commits:
+    - subject: renamed repositories
+      hash: 506aa2d323ffefed662f06b727e0790e32ab9607
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 5.1.2
+  title: ""
+  date: 2023-05-02T22:39:25.049Z
+- commits:
     - subject: Update renovatebot/github-action action to v36.0.4
       hash: 2af29370a05374946b2dda8f2450e7833fb538d8
       body: |
