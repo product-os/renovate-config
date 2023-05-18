@@ -1,4 +1,18 @@
 - commits:
+    - subject: Switch to GH app installation ephemeral tokens
+      hash: 7fc66bcc2410088141b3608d09741af38d611014
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 7.0.0
+  title: ""
+  date: 2023-05-18T19:32:01.885Z
+- commits:
     - subject: Update renovatebot/github-action action to v37
       hash: f8791d8a49c84c817bd5b318ea99ef6bd60dc842
       body: |

@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 7.0.0 - 2023-05-18
+
+* Switch to GH app installation ephemeral tokens [Kyle Harding]
+
 ## 6.0.0 - 2023-05-15
 
 * Update renovatebot/github-action action to v37 [Renovate Bot]
