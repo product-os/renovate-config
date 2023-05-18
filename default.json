@@ -6,6 +6,8 @@
     "docker:enableMajor",
     "helpers:pinGitHubActionDigests"
   ],
+  "username":"balena-renovate[bot]",
+  "gitAuthor":"Self-hosted Renovate Bot <133977723+balena-renovate[bot]@users.noreply.github.com>",
   "onboarding": false,
   "requireConfig": "optional",
   "allowPostUpgradeCommandTemplating": true,
