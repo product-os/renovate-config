@@ -2,7 +2,7 @@
 name: Renovate
 on:
   schedule:
-    - cron: '42 * * * *'
+    - cron: "42 * * * *"
   pull_request:
     branches:
       - master
@@ -14,7 +14,20 @@ jobs:
   renovate:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
+      # https://github.com/actions/checkout
+      - name: Checkout
+        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
+
+      # https://github.com/philips-software/app-token-action
+      - name: Generate GitHub App installation token
+        uses: philips-software/app-token-action@a37926571e4cec6f219e06727136efdd073d8657 # v1.1.2
+        id: app_token
+        with:
+          # https://github.com/apps/balena-renovate
+          # https://github.com/organizations/product-os/settings/apps/balena-renovate
+          app_id: ${{ vars.RENOVATE_APP_ID || '335686' }}
+          app_base64_private_key: ${{ secrets.RENOVATE_APP_PRIVATE_KEY_B64 }}
+          auth_type: installation
 
       - name: Enable dry-run
         run: echo "RENOVATE_DRY_RUN=full" >> $GITHUB_ENV
@@ -25,8 +38,7 @@ jobs:
         with:
           # https://docs.renovatebot.com/self-hosted-configuration
           configurationFile: default.json
-          # FIXME: switch to ephemeral token
-          token: ${{ secrets.FLOWZONE_TOKEN }}
+          token: ${{ steps.app_token.outputs.token }}
         env:
           RENOVATE_DRY_RUN: ${{ env.RENOVATE_DRY_RUN }}
           RENOVATE_HOST_RULES: |
