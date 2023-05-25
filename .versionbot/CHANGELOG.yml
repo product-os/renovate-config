@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v37.1.0
+      hash: 6d4ec73e9e2b209f7147ab4fc805d6b091f32d3a
+      body: |
+        Update renovatebot/github-action from 37.0.0 to 37.1.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 7.1.0
+  title: ""
+  date: 2023-05-25T08:54:43.396Z
+- commits:
     - subject: Switch to GH app installation ephemeral tokens
       hash: 7fc66bcc2410088141b3608d09741af38d611014
       body: ""
