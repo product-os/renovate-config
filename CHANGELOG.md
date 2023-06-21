@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.1.9 - 2023-06-21
+
+* Enforce strict semver on open-balena-base images [Kyle Harding]
+
 ## 8.1.8 - 2023-06-21
 
 * Add compatibility versioning for open-balena-base [Kyle Harding]

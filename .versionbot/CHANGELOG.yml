@@ -1,4 +1,18 @@
 - commits:
+    - subject: Enforce strict semver on open-balena-base images
+      hash: 8b39f5b70c82c5d5883dfa14e57da66b597922e5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 8.1.9
+  title: ""
+  date: 2023-06-21T17:17:58.857Z
+- commits:
     - subject: Add compatibility versioning for open-balena-base
       hash: 73c6e2c4d6ea18f65a6d776fe381775e135cda52
       body: |
