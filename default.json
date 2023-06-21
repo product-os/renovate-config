@@ -85,22 +85,6 @@
   ],
   "regexManagers": [
     {
-      "fileMatch": ["(^|\\/).*\\.tf$"],
-      "matchStrings": ["gh_runner_image_tag[= ]\"(?<currentValue>.*?)\"\\n"],
-      "depNameTemplate": "product-os/self-hosted-runners",
-      "datasourceTemplate": "github-tags",
-      "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
-      "fileMatch": ["(^|\\/).*\\.tf$"],
-      "matchStrings": [
-        "balena_engine_version[= ]\"v?(?<currentValue>.*?)\"\\n"
-      ],
-      "depNameTemplate": "balena-os/balena-engine",
-      "datasourceTemplate": "github-releases",
-      "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
       "fileMatch": ["(^|\\/)Dockerfile(\\.[:alnum:]+)?$"],
       "matchStrings": [
         "ENV PROMETHEUS_VERSION[= ]v?(?<currentValue>.*?)\\n",
