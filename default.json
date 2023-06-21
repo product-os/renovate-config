@@ -55,12 +55,14 @@
   "automerge": false,
   "packageRules": [
     {
+      "matchDatasources": ["docker"],
+      "matchPackagePatterns": ["^balena/open-balena-base$"],
+      "versioning": "regex:^((?<compatibility>.*)-)?v?(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?$"
+    },
+    {
       "matchUpdateTypes": ["major", "minor", "patch"],
       "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: {{updateType}}",
       "labels": ["renovate", "dependencies", "{{depType}}", "{{updateType}}"]
-    },
-    {
-      "matchUpdateTypes": ["major"]
     },
     {
       "matchUpdateTypes": ["minor"],
@@ -75,12 +77,26 @@
       "labels": ["renovate", "dependencies", "{{depType}}", "minor"]
     },
     {
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchDepTypes": ["devDependencies"],
+      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: patch"
+    },
+    {
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchPaths": ["**/docker-compose.test.yml"],
+      "commitBody": "Update {{depName}} from {{{replace 'v' '' currentVersion}}} to {{{replace 'v' '' newVersion}}}\n\nChange-type: patch"
+    },
+    {
       "matchUpdateTypes": ["digest"],
       "commitBody": "Update {{depName}}\n\nChange-type: patch"
     },
     {
       "matchUpdateTypes": ["pin", "pinDigest"],
       "commitBody": "Pin {{depName}}\n\nChange-type: patch"
+    },
+    {
+      "matchPackageNames": ["@balena/open-balena-api"],
+      "matchUpdateTypes": ["minor"]
     }
   ],
   "regexManagers": [
