@@ -1,4 +1,29 @@
 - commits:
+    - subject: Add compatibility versioning for open-balena-base
+      hash: 73c6e2c4d6ea18f65a6d776fe381775e135cda52
+      body: |
+        Also sync other package rules from balena-io/renovate-config
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Remove legacy terraform regex managers
+      hash: 39f314d6606baf620d1ef5d760579aadc3c8dc24
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 8.1.8
+  title: ""
+  date: 2023-06-21T16:20:42.140Z
+- commits:
     - subject: Update renovatebot/github-action action to v38.1.7
       hash: fe85253185897fea4ca852cd9b1f040644745d2a
       body: |

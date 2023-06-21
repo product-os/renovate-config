@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.1.8 - 2023-06-21
+
+* Add compatibility versioning for open-balena-base [Kyle Harding]
+* Remove legacy terraform regex managers [Kyle Harding]
+
 ## 8.1.7 - 2023-06-17
 
 * Update renovatebot/github-action action to v38.1.7 [Self-hosted Renovate Bot]
