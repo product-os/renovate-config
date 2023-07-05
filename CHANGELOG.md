@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.1.11 - 2023-07-05
+
+* Update renovatebot/github-action action to v38.1.9 [Self-hosted Renovate Bot]
+
 ## 8.1.10 - 2023-06-24
 
 * Update renovatebot/github-action action to v38.1.8 [Self-hosted Renovate Bot]
