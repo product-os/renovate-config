@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.1.13 - 2023-07-06
+
+* Update dependency renovate to v36 [Self-hosted Renovate Bot]
+
 ## 8.1.12 - 2023-07-06
 
 * Update renovatebot/github-action action to v38.1.11 [Self-hosted Renovate Bot]
