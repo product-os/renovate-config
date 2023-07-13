@@ -1,4 +1,20 @@
 - commits:
+    - subject: Extend config from balena-io/renovate-config
+      hash: b849b72407de0d283cb7d8d063ce8eae6571577a
+      body: |
+        Removes duplication of package rules and regex managers
+        and consolidates common configuration in one repo.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 8.2.0
+  title: ""
+  date: 2023-07-13T15:21:25.307Z
+- commits:
     - subject: Update renovatebot/github-action action to v38.1.13
       hash: 7b930e24e22d6ebc5d175175adeb25948828b8c4
       body: |

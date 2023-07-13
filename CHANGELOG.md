@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.0 - 2023-07-13
+
+* Extend config from balena-io/renovate-config [Kyle Harding]
+
 ## 8.1.14 - 2023-07-12
 
 * Update renovatebot/github-action action to v38.1.13 [Self-hosted Renovate Bot]
