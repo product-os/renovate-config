@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v39
+      hash: c3a962bdadc791ad9161249c458280135aa1bf6c
+      body: |
+        Update renovatebot/github-action from 38.1.13 to 39.0.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 8.2.1
+  title: ""
+  date: 2023-08-01T23:57:47.575Z
+- commits:
     - subject: Extend config from balena-io/renovate-config
       hash: b849b72407de0d283cb7d8d063ce8eae6571577a
       body: |
