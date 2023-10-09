@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.6 - 2023-10-09
+
+* Update dependency renovate to v37 [Self-hosted Renovate Bot]
+
 ## 8.2.5 - 2023-09-07
 
 * Update actions/checkout action to v4 [Self-hosted Renovate Bot]
