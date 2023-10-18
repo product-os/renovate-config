@@ -9,6 +9,7 @@ on:
 
 env:
   LOG_LEVEL: debug
+  RENOVATE_VERSION: 37.27.0 # renovate: datasource=docker depName=renovate packageName=ghcr.io/renovatebot/renovate
 
 jobs:
   renovate:
@@ -39,6 +40,7 @@ jobs:
           # https://docs.renovatebot.com/self-hosted-configuration
           configurationFile: default.json
           token: ${{ steps.app_token.outputs.token }}
+          renovate-version: ${{ env.RENOVATE_VERSION }}
         env:
           RENOVATE_DRY_RUN: ${{ env.RENOVATE_DRY_RUN }}
           RENOVATE_HOST_RULES: |
