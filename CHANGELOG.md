@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.8 - 2023-10-23
+
+* Update actions/checkout digest to b4ffde6 [Self-hosted Renovate Bot]
+
 ## 8.2.7 - 2023-10-18
 
 * Pin renovate image version to 37.27.0 [Kyle Harding]
