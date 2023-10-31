@@ -32,6 +32,7 @@
     "product-os/hubot",
     "product-os/renovate-config",
     "product-os/self-hosted-runners",
-    "product-os/versionbot"
+    "product-os/versionbot",
+    "product-os/balena-typescript-skeleton"
   ]
 }
