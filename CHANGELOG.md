@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.12 - 2023-11-02
+
+* Update renovatebot/github-action action to v39.1.1 [Self-hosted Renovate Bot]
+
 ## 8.2.11 - 2023-10-31
 
 * Add balena-typescript-skeleton to renovate config [Felipe Lalanne]

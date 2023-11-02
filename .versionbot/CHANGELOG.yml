@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovatebot/github-action action to v39.1.1
+      hash: 3a476bdd44f17ede4ee3cddf47fc9be14cca5e6f
+      body: |
+        Update renovatebot/github-action from 39.1.0 to 39.1.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 8.2.12
+  title: ""
+  date: 2023-11-02T21:15:55.806Z
+- commits:
     - subject: Add balena-typescript-skeleton to renovate config
       hash: b52aeb96b3b02c459f295e59af46543d7238dfd5
       body: ""
