@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove hubot from repo list
+      hash: 9935e199172e8602c856aaead1c23f9a410edf88
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Josh Bowling
+      nested: []
+  version: 8.2.15
+  title: ""
+  date: 2023-11-27T04:20:34.602Z
+- commits:
     - subject: Update renovatebot/github-action action to v39.1.3
       hash: cc0a53603539dcffa7e8c01fdb037cb980454ead
       body: |

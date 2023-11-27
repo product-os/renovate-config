@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.15 - 2023-11-27
+
+* Remove hubot from repo list [Josh Bowling]
+
 ## 8.2.14 - 2023-11-21
 
 * Update renovatebot/github-action action to v39.1.3 [Self-hosted Renovate Bot]
