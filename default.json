@@ -29,7 +29,6 @@
     "product-os/environment-production",
     "product-os/environment-staging",
     "product-os/flowzone",
-    "product-os/hubot",
     "product-os/renovate-config",
     "product-os/self-hosted-runners",
     "product-os/versionbot",
