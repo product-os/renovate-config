@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.16 - 2023-12-01
+
+* Update renovate docker version to v37.74.3 [Kyle Harding]
+
 ## 8.2.15 - 2023-11-27
 
 * Remove hubot from repo list [Josh Bowling]

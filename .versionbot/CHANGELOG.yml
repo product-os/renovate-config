@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update renovate docker version to v37.74.3
+      hash: f715d257a4f4dda96379473ab79a0a543fc72bb8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 8.2.16
+  title: ""
+  date: 2023-12-01T19:23:10.333Z
+- commits:
     - subject: Remove hubot from repo list
       hash: 9935e199172e8602c856aaead1c23f9a410edf88
       body: ""
