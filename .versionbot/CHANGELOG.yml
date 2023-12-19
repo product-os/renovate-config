@@ -1,4 +1,21 @@
 - commits:
+    - subject: Remove repo config from flowzone.yml
+      hash: 5248fa15535e45b4485795e7a354ba911dc30c45
+      body: |
+        This functionality is being deprecated in Flowzone.
+
+        See: https://github.com/product-os/flowzone/pull/833
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 8.2.28
+  title: ""
+  date: 2023-12-19T22:01:48.825Z
+- commits:
     - subject: Update renovatebot/github-action action to v39.2.3
       hash: b7e6b5cd03cbfecad5bf3382ca10afd13d277c6e
       body: |

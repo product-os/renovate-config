@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.28 - 2023-12-19
+
+* Remove repo config from flowzone.yml [Kyle Harding]
+
 ## 8.2.27 - 2023-12-19
 
 * Update renovatebot/github-action action to v39.2.3 [Self-hosted Renovate Bot]
