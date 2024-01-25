@@ -28,10 +28,16 @@
     "product-os/balena-versionist",
     "product-os/environment-production",
     "product-os/environment-staging",
+    "product-os/environments",
     "product-os/flowzone",
     "product-os/renovate-config",
     "product-os/self-hosted-runners",
     "product-os/versionbot",
     "product-os/balena-typescript-skeleton"
-  ]
+  ],
+  "kubernetes": {
+    "fileMatch": [
+      "kube\/.+\\.y[a]?ml$"
+    ]
+  }
 }
