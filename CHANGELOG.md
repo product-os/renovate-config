@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.120 - 2024-02-06
+
+* Update renovate Docker tag to v37.173.3 [Self-hosted Renovate Bot]
+
 ## 8.2.119 - 2024-02-06
 
 * renovate environments-base [Anton Belodedenko]
