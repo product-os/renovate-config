@@ -1,4 +1,15 @@
 - commits:
+    - subject: renovate environments-base
+      hash: 5feb7da3048536c66160a2b5e5cf12fc0a3a921b
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 8.2.119
+  title: ""
+  date: 2024-02-06T00:55:17.520Z
+- commits:
     - subject: Update renovatebot/github-action action to v40
       hash: 2b2ee398e70864d8ce4177fee3cebae4be1424f6
       body: |

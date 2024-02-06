@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.119 - 2024-02-06
+
+* renovate environments-base [Anton Belodedenko]
+
 ## 8.2.118 - 2024-02-06
 
 * Update renovatebot/github-action action to v40 [Self-hosted Renovate Bot]
