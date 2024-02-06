@@ -22,7 +22,7 @@ jobs:
 
       # https://github.com/philips-software/app-token-action
       - name: Generate GitHub App installation token
-        uses: philips-software/app-token-action@a37926571e4cec6f219e06727136efdd073d8657 # v1.1.2
+        uses: philips-software/app-token-action@9f5d57062c9f2beaffafaa9a34f66f824ead63a9 # v2.0.0
         id: app_token
         with:
           # https://github.com/apps/balena-renovate
