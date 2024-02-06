@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.124 - 2024-02-06
+
+* Update renovate Docker tag to v37.174.3 [Self-hosted Renovate Bot]
+
 ## 8.2.123 - 2024-02-06
 
 * Update philips-software/app-token-action action to v2 [Self-hosted Renovate Bot]
