@@ -56,5 +56,9 @@ jobs:
                 "matchHost": "ghcr.io",
                 "username": "${{ github.actor }}",
                 "password": "${{ secrets.GITHUB_TOKEN }}"
+              },
+              {
+                "hostType": "github",
+                "token": "${{ steps.app_token.outputs.token }}",
               }
             ]
