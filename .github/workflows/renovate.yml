@@ -61,12 +61,15 @@ jobs:
                 "hostType": "github",
                 "matchHost": "api.github.com",
                 "token": "${{ steps.app_token.outputs.token }}",
+                "username": "token",
+                "password": "${{ steps.app_token.outputs.token }}",
               },
               {
                 "hostType": "github",
-                "domainName": "github.com",
                 "matchHost": "github.com",
                 "token": "${{ steps.app_token.outputs.token }}",
+                "username": "token",
+                "password": "${{ steps.app_token.outputs.token }}"
               },
               {
                 "username": "token",
