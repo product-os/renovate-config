@@ -58,24 +58,8 @@ jobs:
                 "password": "${{ secrets.GITHUB_TOKEN }}"
               },
               {
-                "hostType": "github",
-                "matchHost": "api.github.com",
-                "token": "${{ steps.app_token.outputs.token }}",
-                "username": "token",
-                "password": "${{ steps.app_token.outputs.token }}",
-              },
-              {
-                "hostType": "github",
                 "matchHost": "github.com",
-                "token": "${{ steps.app_token.outputs.token }}",
                 "username": "token",
                 "password": "${{ steps.app_token.outputs.token }}"
-              },
-              {
-                "username": "token",
-                "password": "${{ steps.app_token.outputs.token }}",
-                "token": "${{ steps.app_token.outputs.token }}",
-                "hostType": "git-refs",
-                "matchHost": "github.com"
               }
             ]
