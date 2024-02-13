@@ -59,6 +59,7 @@ jobs:
               },
               {
                 "hostType": "github",
+                "matchHost": "api.github.com",
                 "token": "${{ steps.app_token.outputs.token }}",
               }
             ]
