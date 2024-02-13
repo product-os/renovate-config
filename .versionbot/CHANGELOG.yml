@@ -1,4 +1,15 @@
 - commits:
+    - subject: allow private git submodules cloning
+      hash: 130ef3def31786d91796b70d7bbb7f1ac7d09ce1
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 8.2.161
+  title: ""
+  date: 2024-02-13T18:03:40.232Z
+- commits:
     - subject: Update renovate Docker tag to v37.187.0
       hash: 9cb1465231023000d0ed1470274a805c43929dbb
       body: |

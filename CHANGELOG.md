@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.161 - 2024-02-13
+
+* allow private git submodules cloning [Anton Belodedenko]
+
 ## 8.2.160 - 2024-02-13
 
 * Update renovate Docker tag to v37.187.0 [Self-hosted Renovate Bot]
