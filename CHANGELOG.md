@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.159 - 2024-02-13
+
+* Update renovate Docker tag to v37.186.1 [Self-hosted Renovate Bot]
+
 ## 8.2.158 - 2024-02-13
 
 * renovate product-os/environments-playground [Anton Belodedenko]
