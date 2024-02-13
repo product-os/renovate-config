@@ -1,4 +1,15 @@
 - commits:
+    - subject: renovate product-os/environments-playground
+      hash: 0843bbf65682ce326333d3129c8b5aeb9b225498
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 8.2.158
+  title: ""
+  date: 2024-02-13T00:16:00.686Z
+- commits:
     - subject: Update renovate Docker tag to v37.186.0
       hash: b48dd8448cfc7c5f67543bac668ea6bb7c6b8a40
       body: |
