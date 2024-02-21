@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove environments-base from product-os
+      hash: a58ad2f2cca8091167af8347ea3b7308ed4146a3
+      body: |
+        This repo has moved to balena-io
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 8.2.203
+  title: ""
+  date: 2024-02-21T16:31:55.074Z
+- commits:
     - subject: Update renovate Docker tag to v37.203.2
       hash: 63a7b8251f5a28b23d442ff7b460d7c48f525cfa
       body: |
