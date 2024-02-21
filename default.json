@@ -29,7 +29,6 @@
     "product-os/environment-production",
     "product-os/environment-staging",
     "product-os/environment-playground",
-    "product-os/environments-base",
     "product-os/environments",
     "product-os/flowzone",
     "product-os/renovate-config",
