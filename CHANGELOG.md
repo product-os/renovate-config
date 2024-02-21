@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.204 - 2024-02-21
+
+* Update renovate Docker tag to v37.203.3 [Self-hosted Renovate Bot]
+
 ## 8.2.203 - 2024-02-21
 
 * Remove environments-base from product-os [Kyle Harding]

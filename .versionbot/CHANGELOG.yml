@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate Docker tag to v37.203.3
+      hash: c12f9e0d7781eb0849ac0e76571de9496920938a
+      body: |
+        Update renovate from 37.203.2 to 37.203.3
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 8.2.204
+  title: ""
+  date: 2024-02-21T16:51:33.174Z
+- commits:
     - subject: Remove environments-base from product-os
       hash: a58ad2f2cca8091167af8347ea3b7308ed4146a3
       body: |
