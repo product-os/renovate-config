@@ -10,7 +10,7 @@
   "onboarding": false,
   "requireConfig": "optional",
   "allowPostUpgradeCommandTemplating": true,
-  "allowedPostUpgradeCommands": ["^npm"],
+  "allowedPostUpgradeCommands": ["^npm", "^node"],
   "printConfig": true,
   "prConcurrentLimit": 2,
   "prHourlyLimit": 0,
