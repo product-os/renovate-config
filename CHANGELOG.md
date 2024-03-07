@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.218 - 2024-03-07
+
+* Update default.json [Anton Belodedenko]
+
 ## 8.2.217 - 2024-02-22
 
 * Add node to the allowed post upgrade commands [Kyle Harding]

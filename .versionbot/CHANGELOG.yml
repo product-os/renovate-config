@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update default.json
+      hash: 1f89be23af5d07f6e43d3e77d5f1b3e6704a2c96
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 8.2.218
+  title: ""
+  date: 2024-03-07T23:17:47.908Z
+- commits:
     - subject: Add node to the allowed post upgrade commands
       hash: 425d4c69001496771bd1a2b644fefb6286b33e68
       body: ""
