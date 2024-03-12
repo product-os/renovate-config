@@ -1,4 +1,18 @@
 - commits:
+    - subject: Removes environment-marketing from repos list.
+      hash: 1240be4ca83b17b7583cc92cd975887e1cdc2d19
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+        signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+      author: Carlo Miguel F. Cruz
+      nested: []
+  version: 8.2.233
+  title: ""
+  date: 2024-03-12T03:56:26.554Z
+- commits:
     - subject: Update renovate Docker tag to v37.235.4
       hash: 91599181c0dd84280fd2ff09eaf81a2063086915
       body: |

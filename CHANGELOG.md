@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.233 - 2024-03-12
+
+* Removes environment-marketing from repos list. [Carlo Miguel F. Cruz]
+
 ## 8.2.232 - 2024-03-11
 
 * Update renovate Docker tag to v37.235.4 [Self-hosted Renovate Bot]
