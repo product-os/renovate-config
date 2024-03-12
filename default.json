@@ -36,7 +36,8 @@
   ],
   "kubernetes": {
     "fileMatch": [
-      "kube\/.+\\.y[a]?ml$"
+      "kube\/.+\\.y[a]?ml$",
+      "kubernetes\/.+\\.y[a]?ml$"
     ]
   }
 }
