@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.290 - 2024-03-25
+
+* Update renovatebot/github-action action to v40.1.6 [Self-hosted Renovate Bot]
+
 ## 8.2.289 - 2024-03-24
 
 * Update renovate Docker tag to v37.269.3 [Self-hosted Renovate Bot]
