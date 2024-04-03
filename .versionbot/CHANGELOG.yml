@@ -1,4 +1,20 @@
 - commits:
+    - subject: Remove kubernetes file matching from org-wide setting
+      hash: 726a37cf4d1e1ce6fc84d9636c6ca0b4b4624fc7
+      body: |
+        All repositories requiring kubernetes file matching
+        have custom renovate configs with the required file match.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 8.2.307
+  title: ""
+  date: 2024-04-03T17:29:21.785Z
+- commits:
     - subject: Update renovate Docker tag to v37.279.0
       hash: 09fb4d11c76ec0143a6296ca16607627efdf8344
       body: |
