@@ -33,10 +33,5 @@
     "product-os/self-hosted-runners",
     "product-os/versionbot",
     "product-os/balena-typescript-skeleton"
-  ],
-  "kubernetes": {
-    "fileMatch": [
-      "kube\/.+\\.y[a]?ml$"
-    ]
-  }
+  ]
 }
