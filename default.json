@@ -19,19 +19,6 @@
   "git-submodules": {
     "enabled": true
   },
-  "repositories": [
-    "product-os/autumndb",
-    "product-os/balena-cloudwatch-exporter",
-    "product-os/balena-jenkins",
-    "product-os/balena-metrics-guard-base",
-    "product-os/balena-redis-exporter",
-    "product-os/balena-versionist",
-    "product-os/environment-production",
-    "product-os/environment-staging",
-    "product-os/flowzone",
-    "product-os/renovate-config",
-    "product-os/self-hosted-runners",
-    "product-os/versionbot",
-    "product-os/balena-typescript-skeleton"
-  ]
+  "autodiscover": true,
+  "autodiscoverFilter": ["product-os/*"]
 }
