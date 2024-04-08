@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.313 - 2024-04-08
+
+* Autodiscover and manage all repositories in product-os [Kyle Harding]
+
 ## 8.2.312 - 2024-04-08
 
 * Update renovatebot/github-action action to v40.1.8 [Self-hosted Renovate Bot]

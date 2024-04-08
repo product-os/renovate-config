@@ -1,4 +1,18 @@
 - commits:
+    - subject: Autodiscover and manage all repositories in product-os
+      hash: 0e04bb044aeeac50e335113118c5b80beab38739
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 8.2.313
+  title: ""
+  date: 2024-04-08T17:32:03.748Z
+- commits:
     - subject: Update renovatebot/github-action action to v40.1.8
       hash: 52a62034deecf55d205a4d993810c1759308c8dc
       body: |
