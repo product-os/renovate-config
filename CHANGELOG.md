@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-12-03
 
+## 8.2.367 - 2024-04-19
+
+* Update renovate Docker tag to v37.310.0 [Self-hosted Renovate Bot]
+
 ## 8.2.366 - 2024-04-19
 
 * Update renovate Docker tag to v37.309.0 [Self-hosted Renovate Bot]
