@@ -1,6 +1,6 @@
 {
   "name": "@balena/renovate-config",
-  "version": "8.2.634",
+  "version": "8.2.635",
   "private": true,
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
     "node": ">=18.12.0"
   },
   "versionist": {
-    "publishedAt": "2024-06-19T13:15:35.131Z"
+    "publishedAt": "2024-06-19T21:10:07.746Z"
   }
 }
